@@ -1,0 +1,721 @@
+customer_id,first_name,last_name,age,gender,postal_code,email,phone_number,membership_status,join_date,last_purchase_date,total_spending,average_order_value,frequency,preferred_category,churned
+101,Léa,King,60.0,M,69003,Lking@orange.fr,33765451688,Basic,14/5/2095,8/1/1960,205.92,1124.64,26,Macaron,False
+102,Chloé,Smith,31.0,F,69006,CSMITH@HOTMAIL.COM,,Gold,15/1/2074,17/9/1902,744.21,4403.42,24,Bread,False
+103,Harper,Robinson,38.0,M,69006,harperr@yahoo.com,33148254771,Basic,1/25/2022,,929.52,42.25,22,Pastries,False
+104,Ethan,Rodriguez,54.0,F,69001,ETHAN_RODRIGUEZ@YANDEX.COM,33118046627,Basic,2033-03-23 00:00:00,7/17/2023,731.21,33.24,22,Unknown,False
+105,Ava,Allen,50.0,F,69006,Ava.allen@hotmail.com,33267246001,Silver,16/3/2000,5/18/2023,629.48,16.57,38,Bread,True
+106,Amélie,Schmidt,45.0,F,69003,Amélie.schmidt@protonmail.com,33410798418,Gold,2023-11-18,2029-01-10 00:00:00,776.1,38.8,20,Bread,False
+107,Mia,Leroy,67.0,F,69003,Mia.leroy@yahoo.com,33440143651,Gold,,2023-03-09,840.89,5191.52,23,Pastries,True
+108,Finn,Weber,34.0,F,69003,finnw@laposte.net,33249004719,Silver,2016-11-10 00:00:00,2023-12-13,455.76,455.76,1,Pastries,False
+109,Chloe,Dubois,21.0,F,69007,Chloed@yahoo.com,33124046901,Basic,5/15/2023,26/12/2023,579.15,115.83,5,Pastries,True
+110,Hannah,Miller,28.0,F,69007,hmiller@web.de,Vb|:{&<^kz6h,Silver,8/6/2023,23/10/2040,704.1,25.15,28,Pastries,False
+111,Harry,Hoffmann,48.0,F,69002,harry.hoffmann@laposte.net,33413173236,Silver,11/6/2022,6/9/2023,920.32,61.35,15,Tarte,False
+112,Henry,Harris,40.0,F,69007,Henryharris@outlook.com,33482989535,Silver,,3/26/2023,709.73,17.31,41,Pastries,True
+113,James,Moreau,67.0,M,69001,james_moreau@outlook.com,33378908896,Gold,,16/9/1923,266.9,7.63,35,Tarte,False
+114,Charlotte,Adams,38.0,F,69007,charlottea@web.de,33551328360,BASIC,30/9/1986,10/13/2023,468.31,11.42,41,Tarte,False
+115,Paul,Richard,25.0,F,69007,Paul.richard@yandex.com,33724009690,Silver,2019-09-28 00:00:00,29/3/2010,566.45,15.31,37,Pastries,False
+116,Benjamin,Garcia,59.0,F,69001,Benjamin_garcia@protonmail.com,33844144576,Basic,2025-01-02 00:00:00,2023-09-10,713.8,18.3,39,Bread,Yes
+117,Emma,Meyer,18.0,M,69006,Emmam@yahoo.com,33304782347,Gold,28/4/2028,12/20/2023,341.27,17.96,19,Macaron,False
+118,Amelia,Bernard,36.0,F,69002,ameliab@outlook.com,Z{|2wD!6.E}!,Gold,,2023-12-19,619.42,15.49,40,Pastries,False
+119,Sophie,Anderson,33.0,M,69003,SOPHIE.ANDERSON@FREE.FR,33355106205,BASIC,9/24/2023,6/12/1900,507.18,56.35,9,Bread,True
+120,Lukas,Hall,66.0,M,69002,Lhall@protonmail.com,33682568671,Silver,4/18/2021,2023-06-13,380.82,13.13,29,Unknown,False
+121,Alexander,White,49.0,M,69001,ALEXANDER_WHITE@ICLOUD.COM,33402406005,GOLD,2025-01-02 00:00:00,12/13/2023,708.7,78.74,9,Pastries,False
+122,Thomas,Johnson,21.0,M,69003,thomasj@orange.fr,33940215217,basic,2023-07-11,30/7/2079,160.38,5.17,31,Bread,False
+123,Lucas,Martin,,M,69003,LUCAS_MARTIN@FREE.FR,33659507525,gold,10/20/2022,2023-09-08,248.04,22.55,11,Bread,False
+124,Marie,Müller,47.0,F,69002,MARIEM@ORANGE.FR,33452993536,Silver,3/6/1942,2022-11-12 00:00:00,724.87,241.62,3,,False
+125,Oliver,Schneider,47.0,F,69002,Olivers@yahoo.com,33704360544,Gold,,2028-11-05 00:00:00,179.67,7.49,24,Unknown,False
+126,Louis,Robert,41.0,M,69001,louis_robert@hotmail.com,33587452449,Silver,21/12/2072,,669.56,17.17,39,Bread,True
+127,Hugo,Scott,48.0,,69003,Hugos@gmx.de,33499807451,Silver,2030-06-04 00:00:00,2018-06-01 00:00:00,72.08,36.04,2,Macaron,True
+128,Liam,Becker,41.0,M,69002,Lbecker@gmail.com,33902788660,Basic,2021-03-02 00:00:00,2023-05-28,854.2,17.08,50,Pastries,True
+129,William,Martinez,36.0,F,69003,wmartinez@gmx.de,33694459920,Silver,7/25/2023,2019-10-30 00:00:00,617.9,12.87,48,Pastries,False
+130,Mason,Thompson,23.0,F,69006,MASONT@YANDEX.COM,+292 (422)-555-5366,gold,2024-09-14 00:00:00,18/5/1929,468.12,17.34,27,Tarte,False
+131,Jack,Fischer,,F,69002,jack_fischer@free.fr,33521290487,Silver,,,135.05,4.82,28,Macaron,True
+132,Noah,Lewis,53.0,M,69006,NOAH.LEWIS@ICLOUD.COM,33540002343,SILVER,8/9/2022,,493.63,17.63,28,Bread,1
+133,Emily,Walker,41.0,U,69001,Emilywalker@icloud.com,33114831632,Basic,3/21/2021,2023-12-19,63.03,1.47,43,To Be Determined,False
+134,Isabella,Laurent,57.0,F,69003,isabellal@free.fr,"bMQ@d""Sg6>%S",Basic,8/16/2021,,313.07,14819.12,3,N/A,False
+135,Emma,Brown,25.0,M,69006,EMMA.BROWN@GMX.DE,33990381653,Silver,2023-07-28,,403390.35,28.09,8,Pastries,False
+136,Leon,Jackson,53.0,F,69003,leon.jackson@gmail.com,33841617689,Silver,17/10/2031,31/3/1948,247.61,6.04,41,Pastries,False
+137,Sophia,Young,42.0,Other,69001,Sophia_young@mail.com,33409929467,Basic,2022-11-02,,571.91,571.91,1,Pastries,False
+138,Olivia,Clark,70.0,F,69006,Olivia.clark@wanadoo.fr,+9953659644559,Silver,7/8/2021,2014-09-26 00:00:00,715.55,14.6,49,Macaron,True
+139,Sophie,Petit,20.0,F,69006,sophiep@yandex.com,33345123788,Gold,,12/9/2076,704.28,176.07,4,Tarte,False
+140,Léa,Wilson,26.0,F,69006,lwilson@hotmail.com,,Gold,,8/7/2050,703.87,24.27,29,Bread,True
+141,Chloé,Durand,46.0,M,69003,CHLOÉ.DURAND@OUTLOOK.COM,+1071965596880,Silver,4/11/2021,2019-06-25 00:00:00,342.51,12.23,28,TBD,False
+142,Harper,Baker,,M,69001,HARPER.BAKER@YANDEX.COM,33991903375,Basic,10/14/2023,7/10/2042,134.98,5.4,25,Tarte,False
+143,Ethan,Schulz,44.0,F,69006,ETHANSCHULZ@YANDEX.COM,33722079967,Basic,2022-03-21,2023-12-07,443.88,34.14,13,Macaron,0
+144,Ava,Moore,20.0,M,69001,ava.moore@yandex.com,33148195313,BASIC,,29/1/1951,72.67,3.82,19,Pastries,False
+145,Amélie,Wright,62.0,M,69002,AMÉLIE.WRIGHT@HOTMAIL.COM,33490953652,Silver,3/13/2023,13/7/1974,147818.25,2.5,33,Pastries,False
+146,Mia,Thomas,52.0,M,69007,mia_thomas@orange.fr,33159115971,Silver,19/6/2037,2023-09-02,108.22,2.21,49,Bread,Yes
+147,Finn,Simon,55.0,M,69007,FSIMON@PROTONMAIL.COM,pN.}Q8~kWDv\,Gold,12/12/1944,2023-12-11,792.34,20.85,38,Pastries,False
+148,Chloe,Taylor,29.0,F,69003,chloet@free.fr,33662680686,Basic,3/26/2023,18/3/2076,499.59,62.45,8,Macaron,False
+149,Hannah,Wagner,49.0,F,69001,Hannah.wagner@gmail.com,33428721077,Basic,2019-06-08 00:00:00,12/7/2023,578.68,22.26,26,Tarte,False
+150,Harry,Green,65.0,F,69002,Harrygreen@protonmail.com,33737394614,Gold,11/23/2022,3/23/2023,131.69,2.99,44,Tarte,True
+151,Henry,King,35.0,M,69003,HKING@GMX.DE,\&[x*$w8#4Bl,Basic,14/8/2001,2015-09-26 00:00:00,481.66,14.6,33,Tarte,False
+152,James,Smith,35.0,F,69006,James_smith@laposte.net,33678413665,Gold,2026-06-17 00:00:00,7/13/2023,740.88,21.17,35,Macaron,False
+153,Charlotte,Robinson,,M,69002,CHARLOTTER@WANADOO.FR,33812517973,gold,11/9/1948,11/23/2023,361.8,9.52,38,Pastries,False
+154,Paul,Rodriguez,42.0,M,69007,paul_rodriguez@laposte.net,+4973578667496,Silver,,2022-06-16 00:00:00,363.27,181.63,2,Macaron,True
+155,Benjamin,Allen,,M,69001,benjamin_allen@yahoo.com,33447016493,Basic,2019-07-26 00:00:00,6/1/2023,266.39,15.67,17,Bread,False
+156,Emma,Schmidt,66.0,F,69001,EMMA_SCHMIDT@OUTLOOK.COM,33572120136,Gold,2030-04-08 00:00:00,2/9/2015,682.74,62.07,11,Bread,False
+157,Amelia,Leroy,45.0,M,69003,aleroy@orange.fr,33375075727,Basic,2031-06-01 00:00:00,,523.49,43.62,12,Macaron,False
+158,Sophie,Weber,43.0,M,69007,SOPHIE_WEBER@GMAIL.COM,33681949075,Basic,11/14/2023,14/9/2005,939.23,19.17,49,Macaron,False
+159,Lukas,Dubois,41.0,Unknown,69006,ldubois@yahoo.com,33378335390,GOLD,27/9/2013,2023-01-14 00:00:00,687.82,36.2,19,Macaron,False
+160,Alexander,Miller,44.0,F,69003,alexander.miller@orange.fr,33892779814,Silver,,2023-12-03,629.95,314.98,2,N/A,False
+161,Thomas,Hoffmann,,F,69003,THOMAS.HOFFMANN@MAIL.COM,33506058783,Basic,,2023-05-15,944.89,67.49,14,Pastries,True
+162,Lucas,Harris,26.0,F,69003,lharris@orange.fr,33368867744,Gold,10/3/2023,11/19/2023,995.14,23.14,43,Pastries,False
+163,Marie,Moreau,20.0,M,69001,Mmoreau@wanadoo.fr,+7354251155524,Silver,2021-08-12 00:00:00,9/23/2023,614.36,12.54,49,To Be Determined,False
+164,Oliver,Adams,60.0,F,69006,OLIVERA@FREE.FR,33682485084,silver,4/18/2021,7/7/1986,369.05,1218.36,43,Tarte,True
+165,Louis,Richard,45.0,M,69001,Louisrichard@gmx.de,33673494636,Silver,2022-06-06,23/7/2002,617.23,17.15,36,Pastries,True
+166,Hugo,Garcia,22.0,M,69001,hugog@free.fr,33798344858,Silver,4/19/2023,11/1/1997,793.86,28.35,28,Pastries,False
+167,Liam,Meyer,28.0,M,69003,LIAM.MEYER@WEB.DE,33666083986,Silver,2012-10-29 00:00:00,2014-02-26 00:00:00,904.08,27.4,33,Bread,True
+168,William,Bernard,63.0,M,69001,WILLIAM_BERNARD@MAIL.COM,33430426320,gold,19/6/1922,8/8/2023,884.95,44.25,20,Macaron,False
+169,Mason,Anderson,,F,69003,MANDERSON@ORANGE.FR,+9092107462664,Silver,2022-02-07,2023-10-27,763.63,20.1,38,Macaron,False
+170,Jack,Hall,52.0,F,69007,JACK_HALL@LAPOSTE.NET,33818035839,Basic,4/26/2022,,78.3,1.82,43,TBD,True
+171,Noah,White,39.0,M,69006,NOAHWHITE@OUTLOOK.COM,33547271961,Gold,2029-10-03 00:00:00,2/13/2023,424.78,28.32,15,Macaron,True
+172,Emily,Johnson,60.0,M,69006,EMILY_JOHNSON@LAPOSTE.NET,33143055569,silver,2023-11-24,3/1/2023,518.02,21.58,24,Bread,True
+173,Isabella,Martin,45.0,M,69006,isabellam@protonmail.com,33280780652,Silver,2/1/2022,11/8/2023,969533.35,49.1,11,To Be Determined,False
+174,Emma,Müller,45.0,M,69001,emmam@gmx.de,33559163483,SILVER,1/19/2021,2023-12-09,216.29,10.3,21,Tarte,False
+175,Leon,Schneider,41.0,M,69007,leons@mail.com,33490473303,Basic,12/11/2023,,316.13,3740.28,12,Pastries,True
+176,Sophia,Robert,44.0,F,69003,sophia.robert@protonmail.com,33317382969,Silver,2021-04-05,2023-10-26,468.09,12.32,38,Macaron,False
+177,Olivia,Scott,57.0,M,69001,olivia_scott@orange.fr,33196292443,Gold,28/1/1961,2029-11-07 00:00:00,427.23,61.03,7,Pastries,False
+178,Sophie,Becker,75.0,M,69001,SBECKER@HOTMAIL.COM,33221671325,Basic,2022-09-17,12/10/2023,732.94,73.29,10,Bread,False
+179,Léa,Martinez,40.0,M,69003,léa.martinez@mail.com,0c{%moy/O0h&,Basic,2021-07-24 00:00:00,2029-10-12 00:00:00,981.83,17427.66,8,Pastries,True
+180,Chloé,Thompson,25.0,F,69001,Chloét@free.fr,33371492535,Silver,2024-02-24 00:00:00,9/24/2023,779.24,70.84,11,Macaron,False
+181,Harper,Fischer,20.0,F,69007,Harper_fischer@web.de,33630901444,Basic,19/11/1935,2026-09-23 00:00:00,566.57,31.48,18,Pastries,False
+182,Ethan,Lewis,,M,69003,ethan_lewis@web.de,33624131406,Gold,2022-11-25,5/12/2023,1474772.0,74.69,11,Bread,Yes
+183,Ava,Walker,70.0,M,69007,ava.walker@laposte.net,+575 (574)-903-7313,Gold,18/1/2008,11/5/1922,253777.1,5.89,24,To Be Determined,True
+184,Amélie,Laurent,61.0,F,69007,Alaurent@mail.com,33905531771,Basic,24/9/2000,5/7/2023,521.14,21.71,24,Pastries,True
+185,Mia,Brown,43.0,,69002,Mbrown@yandex.com,+307 (926)-910-7111,Silver,2022-11-19,2023-07-07,933.07,31.1,30,Bread,1
+186,Finn,Jackson,19.0,,69001,finn_jackson@hotmail.com,33995366086,Basic,2014-01-21 00:00:00,2023-11-27,341.29,12.64,27,N/A,False
+187,Chloe,Young,25.0,M,69002,chloey@icloud.com,33530113611,Silver,2025-04-15 00:00:00,24/9/2081,297.5,12.4,24,Bread,False
+188,Hannah,Clark,54.0,M,69006,hannah.clark@laposte.net,I'%5tlwi;%vz,Basic,2023-06-02,2023-01-11,875.03,18.62,47,Bread,True
+189,Harry,Petit,19.0,F,69002,HARRY_PETIT@GMX.DE,33420581639,Silver,4/17/2023,12/7/2023,64.71,1.62,40,To Be Determined,False
+190,Henry,Wilson,69.0,M,69003,hwilson@gmail.com,33340946909,Gold,2030-08-07 00:00:00,2018-04-08 00:00:00,833.31,55.55,15,Macaron,False
+191,James,Durand,30.0,F,69002,Jamesd@orange.fr,+3444864040618,Gold,,2017-08-27 00:00:00,915.82,28.62,32,Macaron,False
+192,Charlotte,Baker,32.0,F,69007,charlotteb@free.fr,33545889036,Silver,,16/12/1944,710.33,39.46,18,Macaron,True
+193,Paul,Schulz,70.0,F,69003,pauls@yahoo.com,33617478768,silver,6/14/2021,,967433.2000000001,10.78,50,Bread,False
+194,Benjamin,Moore,63.0,F,69002,benjaminm@free.fr,33325127574,Gold,2017-05-13 00:00:00,,946.1,55.65,17,,False
+195,Emma,Wright,47.0,F,69007,emmawright@wanadoo.fr,33406234242,gold,30/11/1994,,717.35,65.21,11,To Be Determined,False
+196,Amelia,Thomas,24.0,M,69003,ameliathomas@web.de,+4199908612506,Silver,16/5/2071,,935.06,935.06,1,Pastries,False
+197,Sophie,Simon,43.0,M,69006,sophie.simon@hotmail.com,33825431262,Basic,15/12/1900,,696.81,69.68,10,Tarte,False
+198,Lukas,Taylor,36.0,M,69006,Lukast@hotmail.com,33893218408,Basic,2027-04-10 00:00:00,,688.35,38.24,18,N/A,False
+199,Alexander,Wagner,,F,69001,alexander.wagner@laposte.net,33992597299,Gold,2022-06-01,10/10/2023,107.45,3.07,35,Bread,False
+200,Thomas,Green,59.0,M,69007,tgreen@outlook.com,33771410493,Gold,2032-03-27 00:00:00,25/2/1929,375693.5,5.37,39,Bread,False
+201,Lucas,King,18.0,M,69006,lucasking@outlook.com,+1275501288452,Silver,,2023-01-15,649.06,24.96,26,Tarte,True
+202,Marie,Smith,47.0,M,69001,MARIES@WANADOO.FR,,Basic,4/16/2022,3/9/2023,564.67,35.29,16,Pastries,True
+203,Oliver,Robinson,36.0,F,69001,oliver_robinson@laposte.net,33901537617,BASIC,,26/10/2080,527.49,11.47,46,Tarte,False
+204,Louis,Rodriguez,57.0,M,69006,lrodriguez@mail.com,33243588577,Gold,2021-08-16,2023-11-05,432.04,1427.1000000000001,43,N/A,False
+205,Hugo,Allen,41.0,F,69007,HALLEN@FREE.FR,33654162445,Basic,,,776.57,388.29,2,Not Available,False
+206,Liam,Schmidt,,,69006,liam_schmidt@yandex.com,33375328489,Silver,2021-07-12,12/1/1948,579.02,32.17,18,Bread,False
+207,William,Leroy,51.0,F,69001,WILLIAM.LEROY@ORANGE.FR,+6192774642923,Gold,,1/1/1930,847.6,27.34,31,Pastries,False
+208,Mason,Weber,29.0,F,69007,MASON_WEBER@ORANGE.FR,33127776729,Gold,7/3/2016,2016-07-25 00:00:00,748.58,46.79,16,Tarte,True
+209,Jack,Dubois,43.0,M,69001,jackd@wanadoo.fr,33835940829,SILVER,4/11/1997,,887.23,295.74,3,Pastries,False
+210,Noah,Miller,61.0,M,69001,NOAHM@HOTMAIL.COM,33223656002,Silver,,2017-12-21 00:00:00,59.82,19.94,3,Pastries,False
+211,Emily,Hoffmann,35.0,,69007,emily.hoffmann@mail.com,33407588643,Gold,1/9/2022,2023-03-09,1309039.65,23.52,31,Macaron,True
+212,Isabella,Harris,55.0,F,69003,ISABELLA.HARRIS@PROTONMAIL.COM,33945071502,Gold,2023-08-23,4/9/2023,546.73,15.19,36,Pastries,True
+213,Emma,Moreau,,M,69002,Emma.moreau@mail.com,33803339943,Silver,11/8/2021,5/6/2023,181.88,549.54,47,TBD,True
+214,Leon,Adams,34.0,F,69003,Ladams@outlook.com,33536002752,Gold,1/20/2021,9/13/2023,144.24,3.14,46,Pastries,False
+215,Sophia,Richard,69.0,M,69006,SOPHIA_RICHARD@GMAIL.COM,33101755035,basic,2029-12-03 00:00:00,22/4/1901,568.84,18.35,31,Pastries,True
+216,Olivia,Garcia,49.0,F,69003,oliviag@mail.com,33158521062,gold,2019-11-09 00:00:00,2023-01-22,702096.2999999999,10.87,36,Bread,N
+217,Sophie,Meyer,,M,69003,SOPHIE_MEYER@YANDEX.COM,33592039262,BASIC,2022-12-15,,287.63,15.98,18,Pastries,N
+218,Léa,Bernard,22.0,F,69001,léab@wanadoo.fr,33920829505,Gold,2023-07-27,2023-12-17,700.45,63.68,11,Pastries,False
+219,Chloé,Anderson,44.0,F,69002,CHLOÉANDERSON@OUTLOOK.COM,33841777745,Gold,,22/10/1992,686.83,13.74,50,Bread,Y
+220,Harper,Hall,53.0,F,69002,hhall@yandex.com,33355919543,Gold,29/11/2012,2023-02-04,616.3,15.03,41,Bread,True
+221,Ethan,White,67.0,F,69007,ewhite@icloud.com,33340006680,Gold,,2023-04-20,246.52,14.5,17,Pastries,True
+222,Ava,Johnson,55.0,M,69001,AVA.JOHNSON@GMX.DE,33984013168,Basic,24/4/2091,2023-08-18,793.86,28.35,28,Macaron,False
+223,Amélie,Martin,60.0,M,69001,Améliem@gmail.com,33528596747,Gold,,4/4/2023,1625623.8,29.21,31,Pastries,True
+224,Mia,Müller,32.0,M,69007,mia.müller@yahoo.com,+563 (601)-252-9067,Gold,,2023-09-22,376.47,11.07,34,Bread,False
+225,Finn,Schneider,40.0,M,69003,Finn.schneider@mail.com,+531 (822)-173-6751,Basic,2022-08-27,2023-09-05,592.65,22.79,26,Macaron,False
+226,Chloe,Robert,,,69001,CHLOER@GMX.DE,33804345259,Gold,25/3/2076,2023-03-27,121.25,10.1,12,Pastries,True
+227,Hannah,Scott,67.0,F,69007,hannahs@mail.com,33320474102,Basic,2028-11-24 00:00:00,2023-09-17,729.27,31.71,23,Bread,False
+228,Harry,Becker,51.0,F,69001,Harrybecker@outlook.com,33248970596,Basic,9/25/2021,5/25/2023,76.29,2.46,31,Macaron,True
+229,Henry,Martinez,70.0,F,69002,henry_martinez@yahoo.com,33925697504,SILVER,2022-11-06 00:00:00,2021-02-03 00:00:00,110.39,6.49,17,Bread,False
+230,James,Thompson,19.0,M,69007,jthompson@gmail.com,QBt{\*&\J@BU,Gold,2023-12-19,11/1/2023,640.15,13.92,46,Macaron,False
+231,Charlotte,Fischer,27.0,M,69001,cfischer@mail.com,33230696170,Gold,2022-03-05,2023-08-17,57.79,2.41,24,Pastries,False
+232,Paul,Lewis,60.0,M,69006,PAUL.LEWIS@MAIL.COM,+82 (700)-963-5851,Basic,3/12/2023,2028-05-11 00:00:00,128.5,3.21,40,Pastries,False
+233,Benjamin,Walker,67.0,M,69006,benjaminw@orange.fr,33778273014,Basic,2/14/2021,11/23/2023,374.35,11.34,33,Macaron,False
+234,Emma,Laurent,52.0,M,69006,elaurent@hotmail.com,33445229070,Basic,2022-08-23,,897.04,19.5,46,To Be Determined,False
+235,Amelia,Brown,,M,69002,ABROWN@GMAIL.COM,33397742453,Silver,2024-11-10 00:00:00,,549.76,17.73,31,Macaron,False
+236,Sophie,Jackson,43.0,F,69001,SOPHIE.JACKSON@ORANGE.FR,33429072985,Silver,7/18/2022,4/6/2034,984.99,20.1,49,Macaron,False
+237,Lukas,Young,50.0,,69006,Lukas.young@hotmail.com,33134730234,Basic,2021-02-03,2023-03-18,75.6,5.82,13,Bread,True
+238,Alexander,Clark,40.0,M,69006,Alexander_clark@hotmail.com,33281090633,Basic,2023-06-09,2020-10-23 00:00:00,299.19,7.67,39,Unknown,False
+239,Thomas,Petit,,M,69001,thomas.petit@protonmail.com,33635576643,Gold,2023-02-19,,831.68,25.99,32,Tarte,No
+240,Lucas,Wilson,89.0,F,69007,LUCASWILSON@FREE.FR,33964698673,GOLD,,,453.42,14.63,31,Tarte,Yes
+241,Marie,Durand,52.0,M,69006,Mdurand@outlook.com,33665996876,Gold,23/4/1927,26/12/2075,436.29,11.79,37,Bread,True
+242,Oliver,Baker,49.0,,69003,OLIVER.BAKER@YANDEX.COM,33169353090,Gold,2026-07-04 00:00:00,,915.68,20.81,44,TBD,True
+243,Louis,Schulz,68.0,,69006,LSCHULZ@LAPOSTE.NET,33835178746,Silver,2/21/2022,2024-03-30 00:00:00,1692020.85,39.28,24,Macaron,False
+244,Hugo,Moore,67.0,M,69006,Hmoore@gmail.com,33111424221,GOLD,23/10/2081,2023-06-16,294.29,32.7,9,Tarte,False
+245,Liam,Wright,28.0,M,69001,liamw@laposte.net,33850322812,Gold,2021-02-17 00:00:00,14/1/1930,457.95,41.63,11,Macaron,True
+246,William,Thomas,,M,69002,WTHOMAS@HOTMAIL.COM,33608681398,Basic,1/2/2022,2032-02-09 00:00:00,347.21,9.38,37,Tarte,True
+247,Mason,Simon,24.0,M,69007,Msimon@free.fr,33507121309,BASIC,10/7/2021,20/11/1981,165.84,9.21,18,Bread,False
+248,Jack,Taylor,41.0,M,69001,JACK_TAYLOR@YAHOO.COM,33489044408,Gold,2023-11-03,2014-12-18 00:00:00,178.05,3.63,49,Macaron,False
+249,Noah,Wagner,,F,69003,Noahwagner@gmx.de,33682866690,Gold,2021-06-18,2019-11-16 00:00:00,235.49,235.49,1,Bread,False
+250,Emily,Green,47.0,M,69006,EGREEN@MAIL.COM,"n(!sY""vd#[c5",Gold,2023-08-25,7/12/2023,941.94,26.17,36,,False
+251,Isabella,King,29.0,M,69002,iking@laposte.net,/e+D]j|I4uf0,Gold,1/19/2023,2026-07-29 00:00:00,223.58,6.21,36,Pastries,True
+252,Emma,Smith,63.0,F,69003,Emmas@mail.com,+356 (937)-673-4525,Basic,3/2/2023,21/4/1985,743.9,123.98,6,Macaron,False
+253,Leon,Robinson,44.0,,69002,leon.robinson@icloud.com,33819729249,Silver,4/12/2023,2023-02-07,185.38,5.98,31,,True
+254,Sophia,Rodriguez,54.0,M,69003,sophiarodriguez@free.fr,33417470675,Gold,30/1/2024,2031-06-02 00:00:00,976.3,108.48,9,Pastries,True
+255,Olivia,Allen,65.0,F,69003,Olivia.allen@laposte.net,>I9LAUN$=\^j,Gold,2/12/1943,,300.75,10.03,30,,True
+256,Sophie,Schmidt,53.0,F,69002,SOPHIE_SCHMIDT@YANDEX.COM,33732146605,Basic,12/7/1969,,339.68,16.18,21,,N
+257,Léa,Leroy,,M,69007,léa_leroy@web.de,33119118033,Basic,11/1/2021,12/3/2023,110.88,829.28,19,Pastries,False
+258,Chloé,Weber,27.0,F,69002,chloé_weber@gmail.com,@DH{e2v9JFdm,Gold,8/9/2022,24/12/1920,896.73,24.24,37,Macaron,False
+259,Harper,Dubois,59.0,M,69003,harperdubois@wanadoo.fr,33131468063,Silver,8/24/2022,,894.71,49.71,18,Pastries,True
+260,Ethan,Miller,48.0,M,69007,Ethan_miller@wanadoo.fr,33115943417,BASIC,2022-12-19,6/20/2023,265.22,9.15,29,Bread,False
+261,Ava,Hoffmann,51.0,M,69007,avahoffmann@orange.fr,33262037363,Silver,2023-08-06,10/19/2023,82.74,5.17,16,Pastries,False
+262,Amélie,Harris,47.0,F,69001,Amélie.harris@mail.com,+601 (710)-367-2809,basic,2029-08-24 00:00:00,,141.31,4.04,35,,False
+263,Mia,Moreau,,M,69006,MMOREAU@YAHOO.COM,33302582644,Gold,3/12/2021,,711.93,79.1,9,,1
+264,Finn,Adams,28.0,M,69007,fadams@icloud.com,33284045979,Silver,2022-12-25,4/1/2010,807.01,201.75,4,Tarte,True
+265,Chloe,Richard,61.0,F,69003,Chloe_richard@icloud.com,33315562454,Gold,2022-02-01,3/5/2023,945.07,27.8,34,Tarte,True
+266,Hannah,Garcia,51.0,F,69001,hgarcia@orange.fr,+860 (368)-727-1405,Basic,7/20/2022,2/8/1906,426.09,14.69,29,,False
+267,Harry,Meyer,44.0,F,69007,HARRY.MEYER@YAHOO.COM,+229 (930)-681-4699,Basic,7/2/2021,19/10/2016,79.13,5.65,14,,False
+268,Henry,Bernard,63.0,F,69002,henryb@wanadoo.fr,33794586926,Silver,11/27/2022,,399.44,133.15,3,Bread,Y
+269,James,Anderson,18.0,M,69001,janderson@hotmail.com,,Silver,2018-03-11 00:00:00,2030-08-18 00:00:00,144.99,6.04,24,,False
+270,Charlotte,Hall,48.0,M,69001,charlotteh@free.fr,33360067292,Gold,,2030-12-29 00:00:00,680.02,48.57,14,,True
+271,Paul,White,41.0,M,69006,paulw@orange.fr,33990960091,Basic,2021-05-17,,563827.4500000001,22.44,14,Pastries,True
+272,Benjamin,Johnson,49.0,F,69006,benjamin.johnson@wanadoo.fr,33550669503,gold,2028-01-18 00:00:00,2019-07-21 00:00:00,205.19,9.33,22,Pastries,True
+273,Emma,Martin,56.0,F,69007,EMMA.MARTIN@ORANGE.FR,33745893044,Gold,9/1/2021,22/9/1999,595.12,12.15,49,,Yes
+274,Amelia,Müller,,F,69001,AMELIA.MÜLLER@WANADOO.FR,33437759838,Basic,2029-05-28 00:00:00,2/23/2023,114.11,3.17,36,Bread,0
+275,Sophie,Schneider,41.0,,69002,Sophies@outlook.com,33149857573,Silver,2029-08-31 00:00:00,2023-08-22,384.89,15.4,25,,False
+276,Lukas,Robert,21.0,M,69007,Lukasr@wanadoo.fr,33964752733,Basic,2/7/2023,2023-10-25,400.56,8.35,48,Pastries,False
+277,Alexander,Scott,49.0,F,69003,Alexanderscott@orange.fr,33449812619,Silver,,,922.88,153.81,6,Tarte,True
+278,Thomas,Becker,22.0,M,69001,Thomasb@free.fr,+99 (854)-649-3430,Gold,,25/9/2023,256.02,8.53,30,Macaron,Yes
+279,Lucas,Martinez,28.0,F,69001,Lucasmartinez@laposte.net,33721297399,Silver,4/13/2023,4/16/2023,726723.7000000001,23.82,17,Pastries,True
+280,Marie,Thompson,69.0,M,69007,mariet@gmail.com,33824609137,Gold,2023-02-25 00:00:00,2023-04-08,647.51,17.5,37,Macaron,True
+281,Oliver,Fischer,40.0,M,69002,OLIVERFISCHER@HOTMAIL.COM,33976042750,Basic,,,997.58,997.58,1,Macaron,False
+282,Louis,Lewis,61.0,,69007,LOUISL@GMX.DE,33492505001,Gold,,12/28/2023,881.59,38.33,23,Macaron,False
+283,Hugo,Walker,,F,69001,Hugowalker@orange.fr,33713528015,Gold,10/13/2022,9/9/2009,547.59,18.88,29,Pastries,False
+284,Liam,Laurent,46.0,M,69001,liam_laurent@hotmail.com,33709090085,Gold,22/5/2063,2023-03-10,454.29,45.43,10,Macaron,True
+285,William,Brown,66.0,M,69006,Wbrown@yahoo.com,33426270980,basic,2/6/2023,2026-07-15 00:00:00,184.21,26.32,7,Macaron,True
+286,Mason,Jackson,27.0,M,69002,MASONJACKSON@YAHOO.COM,33973790061,basic,8/26/2021,2014-12-24 00:00:00,261.04,6.53,40,,True
+287,Jack,Young,,M,69007,jack.young@outlook.com,33337292782,Basic,2029-11-24 00:00:00,2/15/2023,435.38,1438.46,43,Macaron,True
+288,Noah,Clark,52.0,F,69006,Noahc@mail.com,33801304933,Basic,14/5/1952,14/5/1904,142.97,9.53,15,,False
+289,Emily,Petit,70.0,,69001,emilypetit@yandex.com,33193538653,Basic,2033-07-11 00:00:00,2023-07-26,740.11,21.77,34,Macaron,False
+290,Isabella,Wilson,,M,69002,isabellaw@wanadoo.fr,33568767683,Gold,2023-04-04,14/1/2098,604.08,30.2,20,Macaron,False
+291,Emma,Durand,58.0,F,69003,emma_durand@mail.com,+893 (556)-764-1776,Basic,,2023-01-13,94.47,2.25,42,,True
+292,Leon,Baker,70.0,F,69001,Leon_baker@outlook.com,,GOLD,2026-02-05 00:00:00,15/9/2084,992.38,21.57,46,Pastries,No
+293,Sophia,Schulz,53.0,F,69002,Sschulz@laposte.net,33730813308,GOLD,,2/24/2023,778.66,18.99,41,Pastries,True
+294,Olivia,Moore,70.0,M,69006,Olivia.moore@yandex.com,33536414233,Basic,2014-01-16 00:00:00,,787071.6,29.23,15,Pastries,False
+295,Sophie,Wright,20.0,F,69003,swright@gmail.com,33622831254,Silver,2015-09-30 00:00:00,9/10/2023,885.3,26.04,34,Macaron,False
+296,Léa,Thomas,24.0,M,69007,léathomas@yandex.com,33327239432,Gold,2019-09-20 00:00:00,4/10/2035,421.65,3991.62,15,Bread,False
+297,Chloé,Simon,24.0,M,69007,CHLOÉSIMON@FREE.FR,33727424448,Silver,2022-08-24 00:00:00,2023-11-17,934.52,54.97,17,Tarte,False
+298,Harper,Taylor,52.0,F,69007,Harpertaylor@outlook.com,33968297551,Silver,29/4/2038,11/2/2023,398.3,39.83,10,Pastries,True
+299,Ethan,Wagner,35.0,F,69002,Ethanwagner@free.fr,33870382795,Basic,,,845.34,845.34,1,Macaron,True
+300,Ava,Green,43.0,M,69001,Agreen@orange.fr,33213582504,Gold,2029-11-09 00:00:00,2027-12-19 00:00:00,528.72,13.56,39,Tarte,True
+301,Amélie,King,83.0,F,69002,amélie.king@yahoo.com,33752648219,Basic,11/24/2023,23/6/2064,997.01,19.94,50,Bread,True
+302,Mia,Smith,38.0,M,69002,Mia.smith@icloud.com,+863 (821)-934-4476,Gold,3/25/2023,2023-02-23,468.74,66.96,7,Pastries,True
+303,Finn,Robinson,84.0,M,69006,finnr@mail.com,33158449447,Basic,2/25/2022,2023-05-02,158.52,4.28,37,,True
+304,Chloe,Rodriguez,51.0,F,69001,chloe_rodriguez@yandex.com,33165483294,Gold,,28/1/2020,294.52,21.04,14,,False
+305,Hannah,Allen,32.0,M,69006,Hallen@hotmail.com,33283315162,Silver,2022-05-20,21/11/2040,714.54,59.54,12,Pastries,True
+306,Harry,Schmidt,58.0,M,69006,Harryschmidt@laposte.net,,Gold,2026-06-04 00:00:00,,913.5,22.28,41,Pastries,False
+307,Henry,Leroy,56.0,F,69001,henry.leroy@icloud.com,33780500271,Basic,2/12/2021,7/2/1989,457.43,14.76,31,,True
+308,James,Weber,66.0,F,69001,JWEBER@ORANGE.FR,,Basic,21/5/1957,10/12/1901,771.6,32.15,24,,False
+309,Charlotte,Dubois,27.0,F,69003,cdubois@protonmail.com,33437160598,gold,4/27/2023,2018-07-19 00:00:00,411.14,205.57,2,Macaron,True
+310,Paul,Miller,48.0,F,69007,PAULMILLER@OUTLOOK.COM,33536118180,SILVER,2023-11-08,2023-01-25,810.88,40.54,20,Bread,True
+311,Benjamin,Hoffmann,70.0,F,69007,Benjaminh@hotmail.com,33935945512,Silver,5/3/2021,,205.45,4.11,50,Pastries,False
+312,Emma,Harris,33.0,M,69006,emma.harris@laposte.net,9Y7E!#K\U=Eg,gold,7/3/2021,2023-09-24,517.69,10.79,48,Macaron,False
+313,Amelia,Moreau,52.0,M,69002,ameliamoreau@orange.fr,33848619707,Gold,2019-06-11 00:00:00,7/8/2023,427.58,61.08,7,Bread,False
+314,Sophie,Adams,39.0,F,69007,sophie_adams@icloud.com,33354828782,Gold,2013-07-12 00:00:00,12/21/2023,80.32,3.09,26,Macaron,False
+315,Lukas,Richard,,M,69006,Lukas_richard@yahoo.com,33502309696,Silver,,8/9/2023,458.26,91.65,5,Macaron,False
+316,Alexander,Garcia,41.0,M,69007,ALEXANDERG@ORANGE.FR,33847137675,Gold,2021-02-21 00:00:00,2023-12-27,551.24,27.56,20,Tarte,False
+317,Thomas,Meyer,48.0,,69003,Thomasm@icloud.com,33952732148,Basic,6/20/2023,7/18/2023,320.55,7.45,43,,False
+318,Lucas,Bernard,43.0,M,69007,lucas_bernard@gmx.de,33364468608,Gold,1/9/2021,2023-08-27,944.62,22.49,42,Bread,False
+319,Marie,Anderson,30.0,F,69001,MARIE_ANDERSON@YAHOO.COM,33364711403,Basic,,2023-05-24,761.27,17.3,44,Tarte,Yes
+320,Oliver,Hall,43.0,F,69006,Oliverhall@web.de,+601664618121,Silver,2023-04-08,2028-08-22 00:00:00,816.22,19.43,42,Bread,False
+321,Louis,White,45.0,M,69003,Louis_white@wanadoo.fr,33873035969,Basic,9/11/2023,2023-10-18 00:00:00,835.32,59.67,14,Pastries,False
+322,Hugo,Johnson,26.0,F,69003,HUGO_JOHNSON@PROTONMAIL.COM,"GkHgB{=`Ix,&",Silver,2021-02-17,7/7/2023,808.22,62.17,13,Macaron,False
+323,Liam,Martin,33.0,M,69007,liamm@gmx.de,33112528907,Basic,2017-03-16 00:00:00,2030-07-13 00:00:00,337.63,33.76,10,Macaron,False
+324,William,Müller,39.0,F,69002,wmüller@protonmail.com,33451117188,Basic,2022-05-23,,920.54,24.22,38,Bread,True
+325,Mason,Schneider,27.0,F,69007,MSCHNEIDER@PROTONMAIL.COM,33125547925,Gold,2025-03-07 00:00:00,,835.19,37.96,22,Bread,False
+326,Jack,Robert,42.0,M,69007,jackr@icloud.com,33214359155,Gold,13/7/1941,2020-02-16 00:00:00,409.77,27.32,15,Pastries,True
+327,Noah,Scott,,,69002,Noahscott@orange.fr,33966510199,Basic,,2024-10-13 00:00:00,243.55,24.36,10,Pastries,Yes
+328,Emily,Becker,51.0,F,69001,EMILY_BECKER@OUTLOOK.COM,33965951445,Gold,2021-12-05,13/4/2019,200.88,18.26,11,,True
+329,Isabella,Martinez,56.0,F,69006,isabellamartinez@gmx.de,33172115529,Basic,12/19/2021,5/7/2001,949.03,30.61,31,Macaron,False
+330,Emma,Thompson,22.0,F,69002,Ethompson@laposte.net,33640846908,Basic,10/23/2022,7/13/2023,167.17,41.79,4,Macaron,False
+331,Leon,Fischer,42.0,M,69001,Leonfischer@protonmail.com,33481804245,Gold,4/22/2023,12/15/2023,96.58,2.54,38,Macaron,False
+332,Sophia,Lewis,30.0,F,69007,SLEWIS@GMAIL.COM,33510896001,Silver,2021-02-10 00:00:00,2/23/2023,562.25,16.54,34,Pastries,True
+333,Olivia,Walker,,F,69003,oliviawalker@gmx.de,33772430906,Silver,2013-06-18 00:00:00,11/1/2023,358.02,10.23,35,Pastries,False
+334,Sophie,Laurent,58.0,F,69007,SOPHIEL@YANDEX.COM,33900808839,basic,9/9/1934,2020-11-22 00:00:00,494.24,22.47,22,,False
+335,Léa,Brown,56.0,M,69006,LÉA.BROWN@FREE.FR,DLh=p~![sn{H,Gold,5/15/2023,2023-11-27,128.58,6.43,20,,False
+336,Chloé,Jackson,49.0,M,69002,chloéj@gmail.com,33579963684,Basic,30/12/1953,2023-07-05,992.76,5221.34,27,,False
+337,Harper,Young,61.0,M,69006,Harperyoung@mail.com,+2392230020735,Gold,2022-07-09 00:00:00,7/9/1968,898.66,47.3,19,Pastries,True
+338,Ethan,Clark,30.0,F,69006,Ethanc@outlook.com,+964 (725)-318-2612,Gold,2027-04-07 00:00:00,15/3/1931,569.63,21.91,26,Tarte,True
+339,Ava,Petit,30.0,M,69006,AVA_PETIT@FREE.FR,33482525065,Silver,15/10/2026,2023-06-20 00:00:00,782.26,782.26,1,Tarte,False
+340,Amélie,Wilson,44.0,M,69007,amélie_wilson@laposte.net,33639933335,Basic,3/6/2023,2017-01-26 00:00:00,1150415.5,12.82,50,,False
+341,Mia,Durand,68.0,F,69001,MIADURAND@GMAIL.COM,33918744953,Basic,2021-08-21,2023-01-04,613.24,38.33,16,Tarte,True
+342,Finn,Baker,60.0,,69001,FINN.BAKER@WANADOO.FR,33232223222,Basic,2031-04-22 00:00:00,2023-03-06,333.89,10.12,33,Tarte,True
+343,Chloe,Schulz,67.0,F,69003,Chloes@orange.fr,33248359200,silver,2017-06-14 00:00:00,2023-10-21,636435.2,17.73,20,,False
+344,Hannah,Moore,23.0,M,69002,Hannah_moore@yahoo.com,33901027772,Basic,2/27/2023,2023-06-03,396.53,39.65,10,Tarte,False
+345,Harry,Wright,65.0,F,69006,harry.wright@protonmail.com,33395506650,silver,2023-12-28,2023-04-14,384.16,1136.0,48,Pastries,True
+346,Henry,Thomas,64.0,M,69007,henry.thomas@protonmail.com,+691 (503)-952-4601,Silver,22/6/1983,,874.63,67.28,13,Macaron,True
+347,James,Simon,,F,69007,JSIMON@YANDEX.COM,33372944931,Silver,2022-12-12,20/3/2017,770.58,45.33,17,Pastries,False
+348,Charlotte,Taylor,47.0,F,69006,CHARLOTTET@GMAIL.COM,33325820852,Silver,,2020-12-24 00:00:00,521.28,21.72,24,,True
+349,Paul,Wagner,,M,69003,Pwagner@free.fr,33372035259,Gold,2022-08-05,12/14/2023,804.79,16.42,49,,False
+350,Benjamin,Green,66.0,F,69007,benjamin.green@gmx.de,33458415418,Basic,7/25/2022,7/10/1916,141.31,70.66,2,Bread,False
+351,Emma,King,26.0,M,69003,eking@gmx.de,33671331038,Silver,2022-06-08,,502.45,23.93,21,Macaron,True
+352,Amelia,Smith,24.0,F,69001,amelia_smith@laposte.net,33984647995,Gold,11/14/2021,10/3/1934,877.47,18.67,47,Tarte,False
+353,Sophie,Robinson,62.0,F,69003,SOPHIER@HOTMAIL.COM,33483664502,Silver,,,649.5,15.46,42,,False
+354,Lukas,Rodriguez,,,69002,Lrodriguez@hotmail.com,33133746121,Silver,,9/14/2023,791.28,43.96,18,Macaron,False
+355,Alexander,Allen,58.0,M,69001,alexanderallen@gmail.com,+3391599841877,basic,26/1/2080,2032-01-30 00:00:00,200.12,50.03,4,Macaron,True
+356,Thomas,Schmidt,65.0,M,69003,THOMASS@WEB.DE,33784616395,SILVER,2022-06-27,2023-03-19,559.03,18.63,30,Tarte,True
+357,Lucas,Leroy,19.0,,69002,Lleroy@laposte.net,33324667510,Basic,20/2/2049,8/12/1996,203.17,8.83,23,Pastries,True
+358,Marie,Weber,19.0,M,69002,mariew@web.de,33780417584,Gold,1/25/2022,2/2/1990,268.9,15.82,17,,True
+359,Oliver,Dubois,,,69001,Oliver_dubois@web.de,33545504940,Silver,,2023-07-10,651.35,29.61,22,Macaron,Y
+360,Louis,Miller,46.0,M,69001,lmiller@yahoo.com,33575113070,Basic,5/28/2021,2030-07-28 00:00:00,254.08,7.06,36,,False
+361,Hugo,Hoffmann,54.0,F,69006,hugoh@yandex.com,33685250185,Gold,2022-04-13,2015-08-18 00:00:00,575.38,10212.64,8,Pastries,True
+362,Liam,Harris,62.0,M,69007,LIAMH@LAPOSTE.NET,33947727254,Silver,2027-08-19 00:00:00,4/17/2023,472.42,67.49,7,,True
+363,William,Moreau,68.0,M,69003,william.moreau@outlook.com,33567283491,GOLD,25/9/1931,2027-02-27 00:00:00,393.0,13.55,29,Bread,True
+364,Mason,Adams,38.0,F,69002,Masonadams@gmx.de,33712764901,Basic,9/2/2064,2033-02-13 00:00:00,953.75,476.88,2,Macaron,False
+365,Jack,Richard,68.0,M,69006,jrichard@orange.fr,33113361145,Gold,15/1/2030,2023-08-15,568.77,24.73,23,,False
+366,Noah,Garcia,24.0,F,69006,NOAH.GARCIA@LAPOSTE.NET,33738820642,basic,2028-03-27 00:00:00,2023-08-14,876.68,33.72,26,Tarte,False
+367,Emily,Meyer,59.0,M,69006,emeyer@gmail.com,+23 (227)-491-1201,Gold,,31/12/2020,100.93,2.24,45,Macaron,False
+368,Isabella,Bernard,69.0,M,69006,isabella_bernard@laposte.net,33101312809,Basic,7/14/2021,10/5/2023,964.95,192.99,5,Macaron,False
+369,Emma,Anderson,52.0,,69003,emmaanderson@yandex.com,,Gold,29/12/1946,2025-06-29 00:00:00,973.72,74.9,13,Macaron,False
+370,Leon,Hall,47.0,F,69001,leon_hall@laposte.net,,Basic,,2023-06-05,452.63,21.55,21,Pastries,False
+371,Sophia,White,38.0,F,69006,sophia.white@protonmail.com,33329678728,Basic,2029-04-02 00:00:00,22/8/1960,908.85,18.18,50,Bread,False
+372,Olivia,Johnson,36.0,M,69007,Oliviajohnson@free.fr,33503056137,Silver,,15/10/1976,841.38,52.59,16,,True
+373,Sophie,Martin,,M,69007,sophiem@protonmail.com,33448621658,Basic,10/25/2021,21/3/1994,228.57,6.01,38,Tarte,False
+374,Léa,Müller,65.0,M,69001,LMÜLLER@GMX.DE,,Basic,29/9/1979,7/12/2018,102.02,2.62,39,Macaron,False
+375,Chloé,Schneider,34.0,,69007,cschneider@yahoo.com,33815819164,Silver,9/9/2022,,195.1,21.68,9,,True
+376,Harper,Robert,,M,69003,harper.robert@gmail.com,33380876930,Silver,4/8/2021,2023-04-03,990.81,26.07,38,Macaron,True
+377,Ethan,Scott,52.0,F,69007,Escott@yandex.com,33492236814,Silver,2014-01-05 00:00:00,18/7/2094,1187895.0999999999,38.93,17,Tarte,False
+378,Ava,Becker,22.0,F,69006,AVA_BECKER@ORANGE.FR,33463726814,Gold,,10/27/2023,134.72,3.37,40,Pastries,False
+379,Amélie,Martinez,31.0,F,69003,amélie.martinez@free.fr,33805820468,Silver,2021-09-28,,262.46,5.25,50,Pastries,True
+380,Mia,Thompson,55.0,F,69003,mia.thompson@wanadoo.fr,33475196088,SILVER,2021-12-12,,127.04,63.52,2,,False
+381,Finn,Fischer,32.0,,69007,ffischer@mail.com,33294884336,Silver,2023-05-17,,176.64,5.2,34,Pastries,No
+382,Chloe,Lewis,42.0,M,69006,Clewis@gmail.com,+827 (436)-434-2779,Gold,2023-10-09,,1386781.1,29.71,26,,True
+383,Hannah,Walker,32.0,M,69007,hwalker@free.fr,33216600041,Basic,,28/4/1913,112.19,4.67,24,Macaron,False
+384,Harry,Laurent,65.0,M,69001,harryl@hotmail.com,33619804717,Silver,2032-06-19 00:00:00,,1535191.7,45.01,19,Pastries,True
+385,Henry,Brown,,F,69006,Hbrown@web.de,33410949659,Gold,20/8/2063,2023-05-28,194.74,4.75,41,Macaron,N
+386,James,Jackson,46.0,F,69007,jamesjackson@gmx.de,33487637453,Basic,,2/19/2023,752.63,15.05,50,,True
+387,Charlotte,Young,60.0,,69007,Charlotte_young@wanadoo.fr,33875123203,Silver,2/5/2023,19/11/2038,232.28,232.28,1,Pastries,True
+388,Paul,Clark,29.0,M,69003,Paulc@orange.fr,33558389793,SILVER,2022-02-12,2023-10-13,543.52,2967.7999999999997,26,Bread,False
+389,Benjamin,Petit,20.0,F,69007,Benjaminpetit@protonmail.com,33779707196,Silver,,14/8/1928,643.62,13.69,47,Tarte,False
+390,Emma,Wilson,59.0,F,69002,Emmaw@orange.fr,+2515644243491,Gold,2013-10-22 00:00:00,2014-08-29 00:00:00,314.43,15.72,20,Tarte,True
+391,Amelia,Durand,67.0,F,69002,AMELIADURAND@HOTMAIL.COM,33284637045,Gold,2021-05-03,30/7/1974,437.96,21.9,20,Pastries,True
+392,Sophie,Baker,24.0,M,69007,SOPHIEB@GMX.DE,33784487632,gold,1/9/2021,28/8/2053,83.58,2.04,41,Pastries,False
+393,Lukas,Schulz,23.0,F,69006,lschulz@icloud.com,33320011157,Basic,2016-09-06 00:00:00,2023-10-24,105.88,3.31,32,Bread,False
+394,Alexander,Moore,69.0,,69002,Alexander_moore@gmail.com,+166 (653)-764-5465,Basic,2023-08-23,,89.06,4.24,21,Pastries,False
+395,Thomas,Wright,57.0,M,69001,thomasw@protonmail.com,33431419412,Basic,3/10/2023,2023-11-07,654.94,13.37,49,,False
+396,Lucas,Thomas,21.0,F,69003,lucasthomas@orange.fr,+9976407204649,Silver,,2/16/2023,60.09,4.01,15,Macaron,True
+397,Marie,Simon,,M,69003,MARIE.SIMON@ICLOUD.COM,33521355613,GOLD,,,239.98,6.32,38,Bread,False
+398,Oliver,Taylor,29.0,M,69002,OLIVERT@YANDEX.COM,33345474886,Basic,2016-08-03 00:00:00,8/11/2023,728.28,17.76,41,Tarte,False
+399,Louis,Wagner,44.0,M,69002,Lwagner@free.fr,%CW@9K_kzwpy,Silver,7/6/2023,2023-12-22,457.42,19.06,24,Macaron,False
+400,Hugo,Green,45.0,,69003,Hugo.green@wanadoo.fr,33493332479,Gold,2025-10-26 00:00:00,,628.08,157.02,4,Tarte,True
+401,Liam,King,36.0,F,69007,Liam_king@outlook.com,,Gold,3/1/2023,,75.78,7.58,10,Bread,True
+402,William,Smith,19.0,F,69007,wsmith@web.de,33764399220,Gold,,28/5/1980,436.76,39.71,11,,False
+403,Mason,Robinson,22.0,F,69002,mason_robinson@laposte.net,33968836114,SILVER,2023-06-18,,217.26,27.16,8,Pastries,True
+404,Jack,Rodriguez,,M,69002,Jackrodriguez@web.de,,Basic,2022-06-07,2023-03-18,240.18,2006.46,17,Pastries,True
+405,Noah,Allen,18.0,M,69007,noaha@protonmail.com,33816213071,Silver,2/23/2022,11/6/2023,852.43,44.86,19,,False
+406,Emily,Schmidt,21.0,F,69001,EMILYS@LAPOSTE.NET,33113344812,Basic,12/26/2022,2018-07-26 00:00:00,964.45,24.73,39,Macaron,True
+407,Isabella,Leroy,84.0,F,69007,ILEROY@HOTMAIL.COM,33893227183,Silver,2022-01-07,,752.9,30.12,25,Macaron,True
+408,Emma,Weber,41.0,,69007,EMMAWEBER@HOTMAIL.COM,33475097128,Basic,11/10/1919,,320.07,40.01,8,Pastries,False
+409,Leon,Dubois,45.0,F,69006,LDUBOIS@ICLOUD.COM,33458630475,Silver,2025-09-30 00:00:00,2023-06-08,1126488.1500000001,24.14,26,,False
+410,Sophia,Miller,53.0,M,69007,Smiller@gmx.de,33141086676,silver,2023-07-08,24/9/1917,856915.0499999999,28.08,17,Macaron,True
+411,Olivia,Hoffmann,67.0,F,69001,OHOFFMANN@HOTMAIL.COM,33317160199,Basic,2019-01-16 00:00:00,2022-06-16 00:00:00,556.75,11.85,47,Macaron,True
+412,Sophie,Harris,47.0,F,69002,Sophie.harris@mail.com,33533208425,Gold,19/6/1984,,362.18,10.35,35,Pastries,True
+413,Léa,Moreau,54.0,F,69007,Léa_moreau@icloud.com,33609767415,Silver,2022-11-27 00:00:00,2032-08-28 00:00:00,121.08,5.04,24,Bread,False
+414,Chloé,Adams,65.0,,69007,cadams@gmail.com,33494310803,Gold,,,581.92,26.45,22,Tarte,Yes
+415,Harper,Richard,46.0,M,69001,HARPERR@WEB.DE,33727532267,Basic,31/8/1935,2023-01-22,941.49,20.47,46,,True
+416,Ethan,Garcia,,M,69003,egarcia@wanadoo.fr,33864174274,Basic,2027-10-21 00:00:00,5/9/2023,300.44,75.11,4,Bread,True
+417,Ava,Meyer,81.0,M,69001,avam@icloud.com,33517673179,Basic,30/3/1942,2031-11-21 00:00:00,669.71,18.6,36,Pastries,True
+418,Amélie,Bernard,31.0,M,69002,améliebernard@gmail.com,+672 (623)-161-6198,Silver,2017-10-07 00:00:00,24/5/1985,673.17,5973.94,16,Bread,False
+419,Mia,Anderson,31.0,F,69002,Mia_anderson@icloud.com,33146926463,Basic,3/18/2021,,66.82,4.77,14,,True
+420,Finn,Hall,55.0,M,69007,FINN_HALL@YAHOO.COM,33569781000,Basic,2022-10-25,2023-08-25,602.14,14.69,41,Bread,True
+421,Chloe,White,59.0,F,69003,Chloew@orange.fr,33267024979,Gold,12/12/2022,4/11/2014,403.17,16.8,24,,False
+422,Hannah,Johnson,49.0,F,69002,HANNAHJOHNSON@FREE.FR,33395792806,Basic,3/2/2022,2026-07-26 00:00:00,863.01,33.19,26,,False
+423,Harry,Martin,22.0,M,69002,HARRYM@GMX.DE,33749982028,Gold,3/14/2022,2023-12-23,159.73,5.32,30,Pastries,True
+424,Henry,Müller,54.0,F,69003,HENRY.MÜLLER@GMAIL.COM,33234873653,Basic,12/21/2021,2023-04-18,743.39,371.69,2,Tarte,True
+425,James,Schneider,50.0,M,69002,Jschneider@yahoo.com,33654022164,Silver,25/2/2041,1/23/2023,542.58,11.07,49,,True
+426,Charlotte,Robert,40.0,F,69001,charlotterobert@orange.fr,33608604547,Basic,7/18/2023,9/4/1970,181.22,8.63,21,Macaron,True
+427,Paul,Scott,29.0,M,69001,PAULSCOTT@FREE.FR,33903660327,basic,2023-03-10,2016-11-27 00:00:00,770.63,24.08,32,,True
+428,Benjamin,Becker,68.0,,69002,benjamin.becker@laposte.net,33166316233,Silver,2/7/2021,10/1/2023,397.68,8.65,46,Macaron,0
+429,Emma,Martinez,30.0,M,69007,emmamartinez@icloud.com,,Silver,2027-04-05 00:00:00,2025-07-16 00:00:00,387.64,35.24,11,Pastries,True
+430,Amelia,Thompson,68.0,F,69001,AMELIAT@GMAIL.COM,33941100749,Silver,4/19/2022,2023-09-08,693.65,33.03,21,Pastries,False
+431,Sophie,Fischer,41.0,F,69003,sophief@outlook.com,+8835367221227,Basic,,2023-01-03,911.08,25.31,36,Pastries,True
+432,Lukas,Lewis,56.0,F,69001,Llewis@orange.fr,33278987042,Basic,2013-05-02 00:00:00,4/8/2023,535.38,12.45,43,Macaron,True
+433,Alexander,Walker,43.0,F,69002,ALEXANDER.WALKER@MAIL.COM,33264901336,Basic,2015-09-17 00:00:00,2/5/1920,788.81,23.2,34,Pastries,False
+434,Thomas,Laurent,60.0,F,69003,thomas_laurent@gmx.de,33678083163,Gold,,2018-11-09 00:00:00,387.31,9.22,42,Pastries,True
+435,Lucas,Brown,59.0,,69007,lucas_brown@yahoo.com,h<8#SvD.UKqZ,Gold,2022-06-08,2023-04-16,71.41,35.7,2,Tarte,True
+436,Marie,Jackson,31.0,M,69007,Mariej@icloud.com,33909675692,Silver,2025-05-07 00:00:00,2023-07-08,432.35,30.88,14,Macaron,False
+437,Oliver,Young,67.0,M,69006,oyoung@wanadoo.fr,33908193819,silver,8/16/2022,2016-01-12 00:00:00,798.34,19.47,41,Bread,False
+438,Louis,Clark,58.0,F,69003,lclark@free.fr,33437349688,Gold,,2023-03-06,60.83,1.52,40,Pastries,Yes
+439,Hugo,Petit,57.0,F,69007,Hugo_petit@gmail.com,33838917169,Basic,5/4/2023,2023-11-05,953.89,29.81,32,,False
+440,Liam,Wilson,42.0,M,69007,Liam.wilson@mail.com,33129052791,Gold,7/15/2023,2024-11-26 00:00:00,832.01,19.81,42,Macaron,True
+441,William,Durand,37.0,M,69002,WILLIAM.DURAND@FREE.FR,33644080252,Silver,1/2/2096,2013-07-17 00:00:00,465.01,13.68,34,,True
+442,Mason,Baker,57.0,M,69006,Mbaker@yahoo.com,33604434496,Basic,,,970.96,26.97,36,,False
+443,Jack,Schulz,67.0,F,69003,Jackschulz@mail.com,LG[Ud0jq31)6,Gold,,2023-02-15,712.41,19.79,36,Bread,True
+444,Noah,Moore,30.0,M,69006,Noah_moore@mail.com,+453 (943)-507-4792,Basic,11/13/2021,30/4/1915,917.32,22.93,40,Macaron,False
+445,Emily,Wright,50.0,F,69003,EMILYWRIGHT@FREE.FR,33538534814,Basic,2022-09-24,2018-03-14 00:00:00,549.97,22.0,25,Pastries,True
+446,Isabella,Thomas,27.0,M,69001,ISABELLA_THOMAS@WEB.DE,33514707661,Gold,8/24/2022,,440.29,2841.42,22,,True
+447,Emma,Simon,46.0,M,69002,emmasimon@protonmail.com,33871032529,Basic,6/23/2022,7/25/2023,376.26,47.03,8,Macaron,False
+448,Leon,Taylor,63.0,F,69007,LEONT@MAIL.COM,33312383880,Gold,2027-01-12 00:00:00,2026-06-19 00:00:00,166.76,33.35,5,Bread,1
+449,Sophia,Wagner,51.0,M,69007,Sophiaw@laposte.net,,Gold,,2023-07-17,771.25,9126.34,12,Macaron,False
+450,Olivia,Green,32.0,F,69001,OLIVIAG@YAHOO.COM,33258789565,Silver,9/6/2042,2/4/2023,574.74,24.99,23,Macaron,True
+451,Sophie,King,44.0,M,69001,SOPHIEKING@LAPOSTE.NET,33480347370,Silver,4/13/2022,2023-04-13,502.54,17.95,28,,True
+452,Léa,Smith,25.0,,69006,léa_smith@protonmail.com,+8656753044112,Silver,2023-06-26,2023-01-02,387.77,15.51,25,Bread,True
+453,Chloé,Robinson,53.0,F,69002,chloé.robinson@outlook.com,+1359835204482,Silver,17/3/1983,2023-08-09,495.99,14.59,34,Macaron,False
+454,Harper,Rodriguez,53.0,F,69006,harperr@orange.fr,33817948157,Basic,26/10/1982,2028-07-01 00:00:00,1120941.6,12.49,50,Bread,False
+455,Ethan,Allen,30.0,F,69006,Ethan.allen@icloud.com,33634270416,Silver,2022-07-08,24/9/2095,1352245.3,17.52,43,Pastries,False
+456,Ava,Schmidt,30.0,M,69001,AVASCHMIDT@GMX.DE,33663278125,Basic,6/26/2022,,665.43,15.84,42,Tarte,False
+457,Amélie,Leroy,,F,69007,Améliel@laposte.net,+5236157526803,Basic,,26/5/2035,226.45,5.39,42,Macaron,True
+458,Mia,Weber,31.0,M,69001,Miaw@hotmail.com,+1661759166293,Silver,2030-08-27 00:00:00,2023-01-02,203.11,823.6,35,Tarte,True
+459,Finn,Dubois,32.0,M,69001,finn.dubois@yahoo.com,33618113717,Gold,9/12/2023,,893.53,19.86,45,Pastries,False
+460,Chloe,Miller,,M,69003,CHLOEM@GMAIL.COM,33797865994,Basic,7/14/2021,22/11/2031,848.74,84.87,10,Pastries,True
+461,Hannah,Hoffmann,32.0,F,69003,Hhoffmann@outlook.com,33824165502,Silver,2018-06-02 00:00:00,11/27/2023,657.64,41.1,16,Macaron,1
+462,Harry,Harris,,F,69006,HARRYHARRIS@WANADOO.FR,33618378321,Silver,,20/4/1997,928.64,48.88,19,Bread,True
+463,Henry,Moreau,29.0,F,69003,henrymoreau@free.fr,33441225069,Silver,2020-07-14 00:00:00,2023-07-11,334.48,41.81,8,,False
+464,James,Adams,,M,69003,Jadams@gmail.com,33764596945,silver,2014-06-04 00:00:00,12/22/2023,981.42,30.67,32,Macaron,False
+465,Charlotte,Richard,57.0,M,69001,CHARLOTTE.RICHARD@ICLOUD.COM,33761245733,Basic,,2023-03-04,496.02,496.02,1,,True
+466,Paul,Garcia,59.0,M,69006,paulg@gmail.com,TBB)uTH/KZJ;,Gold,2015-11-01 00:00:00,22/10/2033,282.12,7.42,38,Macaron,False
+467,Benjamin,Meyer,19.0,,69001,Benjamin.meyer@web.de,+55 (670)-466-3676,Basic,2013-09-07 00:00:00,9/15/2023,763.95,190.99,4,Bread,False
+468,Emma,Bernard,37.0,F,69006,EMMA.BERNARD@GMX.DE,33959149045,Silver,,2023-06-18,357.55,12.77,28,Pastries,False
+469,Amelia,Anderson,47.0,F,69001,ameliaanderson@yandex.com,33269242007,Silver,,5/1/2000,863.42,431.71,2,Bread,True
+470,Sophie,Hall,20.0,F,69007,sophieh@outlook.com,33910960574,Gold,7/3/1955,,537.54,10.97,49,Bread,True
+471,Lukas,White,61.0,M,69007,LUKASW@MAIL.COM,33366373549,Silver,7/4/2097,11/11/1981,360.13,18.01,20,Macaron,False
+472,Alexander,Johnson,,,69003,Ajohnson@hotmail.com,,Basic,1/1/1989,2023-10-01,617.02,12.59,49,Pastries,False
+473,Thomas,Martin,67.0,F,69006,tmartin@wanadoo.fr,33833280902,Gold,25/3/1992,3/14/2023,226259.75,12.61,10,,True
+474,Lucas,Müller,31.0,F,69001,Lucasm@wanadoo.fr,33151897069,Silver,2022-12-14,2024-06-20 00:00:00,897.46,19.94,45,Macaron,True
+475,Marie,Schneider,24.0,M,69003,Maries@gmx.de,33285242002,Silver,21/9/1961,10/14/2023,900.66,37.53,24,,False
+476,Oliver,Robert,59.0,M,69002,Oliver.robert@web.de,33353322277,Silver,12/19/2022,2025-09-01 00:00:00,135.1,1918.42,10,Pastries,True
+477,Louis,Scott,90.0,F,69006,louis.scott@laposte.net,33682531643,Silver,2/1/2023,11/6/1964,738.44,2688.06,39,Bread,Yes
+478,Hugo,Becker,64.0,,69001,Hugobecker@free.fr,33891261768,SILVER,,2023-08-23,190.21,13505.62,2,Tarte,False
+479,Liam,Martinez,59.0,M,69006,liam_martinez@outlook.com,33854252854,Basic,3/8/2007,3/19/2023,518.39,11.78,44,Tarte,True
+480,William,Thompson,55.0,F,69007,Williamthompson@free.fr,+161 (465)-462-7185,Gold,8/3/2022,,384.49,54.93,7,,False
+481,Mason,Fischer,61.0,F,69003,masonfischer@web.de,;i;-(!!70FG9,Silver,2024-08-25 00:00:00,2030-05-29 00:00:00,51.55,3.68,14,Pastries,False
+482,Jack,Lewis,38.0,F,69003,jack_lewis@outlook.com,33297386700,Basic,5/4/1926,9/21/2023,116.59,3.24,36,Tarte,False
+483,Noah,Walker,64.0,F,69001,noahw@yandex.com,33744308588,Gold,2020-08-10 00:00:00,2023-04-25,261.73,7.27,36,,Y
+484,Emily,Laurent,19.0,,69003,Elaurent@yandex.com,33153329704,Silver,11/1/2091,2019-09-11 00:00:00,108.91,3.51,31,Macaron,True
+485,Isabella,Brown,43.0,F,69002,ISABELLAB@HOTMAIL.COM,33256443220,GOLD,21/3/2083,2023-11-18,679.91,16.19,42,Pastries,False
+486,Emma,Jackson,68.0,F,69003,Emmaj@icloud.com,33913703318,Basic,,12/5/2023,114.66,3.82,30,,False
+487,Leon,Young,33.0,F,69003,LEONY@GMX.DE,33923066868,BASIC,8/11/2061,2/3/2023,837.96,22.05,38,Pastries,True
+488,Sophia,Clark,57.0,,69001,Sophiac@gmx.de,33467597315,Basic,,18/6/1931,861.54,18.33,47,,True
+489,Olivia,Petit,24.0,F,69007,Oliviap@protonmail.com,33428501727,Basic,2022-12-07,22/11/2029,846.39,60.46,14,,True
+490,Sophie,Wilson,59.0,M,69002,sophiew@mail.com,33152198575,Silver,5/17/2021,5/20/2023,642.64,13.97,46,Bread,True
+491,Léa,Durand,20.0,F,69001,léadurand@hotmail.com,33385748426,Gold,2021-09-24,2023-05-13,659.11,54.93,12,Pastries,True
+492,Chloé,Baker,29.0,F,69007,Chloéb@outlook.com,"&p*JP3iQNJ""9",BASIC,3/9/1931,2032-01-30 00:00:00,718.52,37.82,19,Pastries,False
+493,Harper,Schulz,52.0,M,69006,harpers@hotmail.com,33813648401,Gold,24/3/2099,2020-07-06 00:00:00,499.36,49.94,10,Pastries,False
+494,Ethan,Moore,,M,69003,Ethanm@web.de,33307936652,basic,5/7/2022,,413.61,17.23,24,Macaron,False
+495,Ava,Wright,,F,69003,AVAW@GMX.DE,33711602506,Gold,2023-08-24 00:00:00,2023-11-17,532.55,19.72,27,Tarte,False
+496,Amélie,Thomas,22.0,M,69001,Améliet@gmx.de,33363473905,Silver,1/27/2022,2031-01-28 00:00:00,737.33,43.37,17,Tarte,False
+497,Mia,Simon,28.0,M,69006,MIA_SIMON@ICLOUD.COM,33383708400,Basic,2/15/2023,2023-03-14,866.56,39.39,22,Pastries,True
+498,Finn,Taylor,44.0,M,69003,finn_taylor@mail.com,33282139662,Silver,19/11/2055,,441.02,73.5,6,Macaron,False
+499,Chloe,Wagner,18.0,M,69001,Chloew@yandex.com,33401669613,Gold,2025-04-29 00:00:00,5/25/2023,906.4,23.24,39,Macaron,True
+500,Hannah,Green,67.0,F,69006,hannahgreen@mail.com,33545243619,Basic,2029-09-01 00:00:00,2023-10-01,194.75,7.21,27,,False
+501,Harry,King,25.0,F,69002,harryk@web.de,33495190032,basic,2025-08-28 00:00:00,1/11/1903,587.25,13.35,44,Macaron,True
+502,Henry,Smith,53.0,F,69001,Henry.smith@free.fr,+151 (473)-462-6530,Basic,31/8/2086,2024-12-27 00:00:00,1368525.95,27065.2,4,Macaron,True
+503,James,Robinson,70.0,F,69006,jamesrobinson@yandex.com,33702997644,Gold,23/1/2004,2015-12-11 00:00:00,281.56,56.31,5,Tarte,False
+504,Charlotte,Rodriguez,34.0,F,69001,crodriguez@hotmail.com,33124348499,Gold,2023-03-19,,600.58,33.37,18,,False
+505,Paul,Allen,68.0,F,69001,Paul.allen@yahoo.com,33818529372,Gold,18/5/1998,2023-09-05 00:00:00,377.81,31.48,12,Pastries,True
+506,Benjamin,Schmidt,29.0,M,69003,benjamins@gmx.de,33187097763,Basic,2023-07-22 00:00:00,21/1/1903,277722.4,3.52,44,Macaron,True
+507,Emma,Leroy,44.0,M,69001,emmal@free.fr,33433391387,SILVER,,2033-03-11 00:00:00,939.52,22.37,42,Bread,False
+508,Amelia,Weber,,M,69002,AMELIA.WEBER@MAIL.COM,33351452692,Gold,2022-08-09,2030-04-01 00:00:00,811.1,20.8,39,Macaron,False
+509,Sophie,Dubois,36.0,F,69001,sophiedubois@wanadoo.fr,33670860081,Basic,,10/23/2023,547.86,18.26,30,Macaron,False
+510,Lukas,Miller,51.0,,69001,lukasm@hotmail.com,33750260138,Gold,2021-05-24 00:00:00,2023-12-15,502.05,14.34,35,Tarte,False
+511,Alexander,Hoffmann,32.0,F,69007,ahoffmann@web.de,33648867108,Silver,26/6/2082,30/4/2043,280.46,10.79,26,Tarte,True
+512,Thomas,Harris,40.0,F,69003,thomas_harris@outlook.com,33906730670,Silver,6/28/2021,8/14/2023,231.88,16.56,14,,False
+513,Lucas,Moreau,87.0,F,69003,lucas.moreau@yandex.com,,SILVER,9/3/2022,8/18/2023,596.18,22.93,26,Pastries,False
+514,Marie,Adams,67.0,M,69001,MARIE.ADAMS@YAHOO.COM,33476872139,Silver,2022-04-19,11/24/2023,260077.55,3.22,45,Bread,False
+515,Oliver,Richard,29.0,M,69001,oliverr@icloud.com,33154157596,Basic,12/25/2021,,711.33,711.33,1,Macaron,1
+516,Louis,Garcia,31.0,F,69006,lgarcia@web.de,33121966471,Basic,2016-06-29 00:00:00,27/11/1961,410.82,12.84,32,Macaron,False
+517,Hugo,Meyer,29.0,M,69002,Hugomeyer@mail.com,33416303295,GOLD,3/3/1900,,782.74,195.69,4,,False
+518,Liam,Bernard,41.0,,69006,liamb@hotmail.com,,Basic,2020-07-10 00:00:00,25/12/1961,208.32,6.51,32,Bread,True
+519,William,Anderson,86.0,M,69007,williama@wanadoo.fr,33578281560,Basic,10/9/2022,2023-11-17,142.44,4.91,29,Tarte,False
+520,Mason,Hall,43.0,M,69001,MASON_HALL@YAHOO.COM,Qy`tRs{XGNeN,BASIC,2023-03-28,,903.28,21.01,43,Bread,False
+521,Jack,White,,F,69007,jack.white@orange.fr,33829041047,Gold,2020-06-12 00:00:00,14/9/2026,880.28,26.68,33,Bread,0
+522,Noah,Johnson,40.0,M,69003,noah.johnson@yahoo.com,33113057235,SILVER,2031-01-19 00:00:00,2023-06-23,613.71,32.3,19,Pastries,False
+523,Emily,Martin,61.0,M,69001,emilym@hotmail.com,+1219515670889,Silver,2022-11-25,16/1/2049,758.95,36.14,21,Pastries,True
+524,Isabella,Müller,62.0,F,69006,isabellam@free.fr,33538817197,Silver,2/12/2022,1/4/2023,147.34,6.41,23,Macaron,True
+525,Emma,Schneider,,,69007,EMMASCHNEIDER@WEB.DE,+7053163960117,Basic,12/12/2021,14/11/1914,963.71,35.69,27,Tarte,True
+526,Leon,Robert,64.0,M,69001,LEONR@FREE.FR,33238645130,Gold,6/17/2023,2018-03-14 00:00:00,280.43,11.22,25,Pastries,False
+527,Sophia,Scott,70.0,,69007,sscott@yandex.com,33605901846,Silver,27/1/1940,2023-10-24,371.33,8.25,45,Pastries,False
+528,Olivia,Becker,54.0,M,69001,Olivia_becker@mail.com,33227589032,Gold,,,498.94,12.17,41,,False
+529,Sophie,Martinez,35.0,,69003,sophiem@web.de,+7132044007689,Silver,6/26/2021,13/9/2090,288.94,36.12,8,Macaron,False
+530,Léa,Thompson,38.0,M,69007,Lthompson@gmx.de,33454841209,Basic,31/11/2045,2023-11-01,411.14,27.41,15,,False
+531,Chloé,Fischer,51.0,M,69002,chloéfischer@gmail.com,33663846947,Silver,,6/25/2023,622.2,69.13,9,Macaron,False
+532,Harper,Lewis,43.0,M,69001,harperlewis@gmail.com,33505462161,basic,22/10/1998,2023-08-09,216.04,30.86,7,,False
+533,Ethan,Walker,46.0,F,69006,ethan_walker@mail.com,+9489964064510,Basic,31/11/2046,5/1/1900,554.48,277.24,2,Tarte,True
+534,Ava,Laurent,44.0,F,69006,ava.laurent@gmx.de,33793781573,Silver,2026-05-13 00:00:00,5/24/2023,566.01,22.64,25,Tarte,True
+535,Amélie,Brown,37.0,F,69001,Amélie_brown@laposte.net,33771284261,SILVER,2021-07-02,25/2/1953,558.58,16.93,33,,False
+536,Mia,Jackson,19.0,F,69001,miajackson@gmx.de,33490814338,Gold,12/4/2082,12/2/2023,988.01,109.78,9,Bread,False
+537,Finn,Young,60.0,M,69003,finn.young@gmx.de,33849436461,GOLD,2021-04-15,3/24/2023,749.79,2314.6,46,Tarte,0
+538,Chloe,Clark,68.0,F,69003,CHLOE_CLARK@OUTLOOK.COM,33539210253,Basic,2013-10-27 00:00:00,2016-10-26 00:00:00,335.07,33.51,10,Pastries,False
+539,Hannah,Petit,31.0,,69007,hannahpetit@icloud.com,+508 (287)-652-1744,Basic,2024-01-30 00:00:00,2033-01-27 00:00:00,772.7,19.32,40,Macaron,False
+540,Harry,Wilson,50.0,M,69006,Harrywilson@outlook.com,33120725409,gold,2016-07-12 00:00:00,2023-07-07,930.58,23.26,40,Macaron,False
+541,Henry,Durand,50.0,M,69001,henry_durand@laposte.net,33625824307,Gold,6/9/2023,25/1/1997,280.24,6.09,46,Macaron,False
+542,James,Baker,31.0,M,69001,JAMESBAKER@OUTLOOK.COM,Q%VRHS9}%<5K,Silver,2021-11-30 00:00:00,2023-11-20,377.76,7.56,50,Macaron,False
+543,Charlotte,Schulz,70.0,M,69002,CHARLOTTE_SCHULZ@GMX.DE,+4713815145712,Silver,5/10/2021,,862.49,19.17,45,,False
+544,Paul,Moore,31.0,F,69003,Paul.moore@orange.fr,33117780675,Basic,2025-06-19 00:00:00,,425.54,22.4,19,,False
+545,Benjamin,Wright,55.0,,69003,benjamin_wright@hotmail.com,33911668547,Basic,2/10/2021,,932.17,40.53,23,Bread,True
+546,Emma,Thomas,69.0,M,69007,EMMAT@FREE.FR,,Silver,2022-07-07,9/28/2023,809.49,26.98,30,Macaron,False
+547,Amelia,Simon,28.0,F,69006,ASIMON@GMAIL.COM,33889058982,Gold,1/28/2023,2022-02-06 00:00:00,474.92,22.62,21,Pastries,True
+548,Sophie,Taylor,20.0,F,69001,sophiet@gmail.com,33928185802,Basic,2021-03-12,2014-01-30 00:00:00,724.65,144.93,5,Macaron,False
+549,Lukas,Wagner,52.0,M,69007,Lwagner@orange.fr,33754609716,BASIC,9/10/1938,2023-12-13,503.6,29.62,17,Tarte,False
+550,Alexander,Green,46.0,M,69001,alexander_green@hotmail.com,,Silver,1/11/2064,,75.92,10.85,7,Macaron,True
+551,Thomas,King,25.0,F,69001,THOMAS_KING@WEB.DE,33660232743,Basic,2015-10-09 00:00:00,2023-08-19,193.56,16.13,12,Bread,False
+552,Lucas,Smith,65.0,F,69007,lucassmith@icloud.com,33150713522,Basic,2014-08-30 00:00:00,5/7/1921,894.3,18.63,48,Pastries,False
+553,Marie,Robinson,61.0,F,69006,marierobinson@outlook.com,+1524328827200,Basic,11/8/2021,2030-07-19 00:00:00,767.73,34.9,22,Pastries,False
+554,Oliver,Rodriguez,57.0,F,69007,Oliver_rodriguez@hotmail.com,33839271720,Gold,29/6/1952,,238.0,8.21,29,Bread,False
+555,Louis,Allen,49.0,F,69003,Louis.allen@outlook.com,33904923584,Silver,2014-05-29 00:00:00,15/3/1933,968.11,21.51,45,Pastries,False
+556,Hugo,Schmidt,47.0,F,69003,Hugo.schmidt@hotmail.com,33473737360,Gold,13/12/2084,18/11/1973,923.21,51.29,18,Macaron,0
+557,Liam,Leroy,47.0,M,69001,Liaml@icloud.com,33411227420,Gold,12/4/2021,28/2/2019,945.06,31.5,30,Macaron,False
+558,William,Weber,24.0,M,69002,Wweber@web.de,33629435515,Gold,7/2/2049,,59.25,1.23,48,Macaron,False
+559,Mason,Dubois,,F,69006,MASONDUBOIS@FREE.FR,33386469453,Basic,13/8/2068,2/1/2083,556.65,185.55,3,,False
+560,Jack,Miller,23.0,M,69003,jmiller@icloud.com,33458515118,Basic,2013-12-26 00:00:00,2033-02-18 00:00:00,655.53,81.94,8,,False
+561,Noah,Hoffmann,43.0,F,69003,NHOFFMANN@WEB.DE,33698042561,Basic,2027-02-15 00:00:00,29/3/1921,1157236.5,6103.16,15,Tarte,True
+562,Emily,Harris,31.0,M,69003,Emily.harris@mail.com,33986669002,Gold,,2030-09-08 00:00:00,758.14,18.05,42,Pastries,False
+563,Isabella,Moreau,27.0,M,69003,isabella_moreau@orange.fr,33439610541,Basic,2031-06-12 00:00:00,1/11/1969,393.76,9.6,41,Pastries,True
+564,Emma,Adams,67.0,F,69002,emmaa@wanadoo.fr,0{Kt/;S'&m>!,Gold,2023-05-23,2023-08-07,500.51,41.71,12,Pastries,False
+565,Leon,Richard,41.0,M,69001,lrichard@outlook.com,33858647558,Silver,2013-10-13 00:00:00,2023-12-06,127.38,7.96,16,,False
+566,Sophia,Garcia,53.0,,69003,SOPHIAG@ORANGE.FR,+914 (898)-823-8872,Gold,9/4/2021,,934.33,30.14,31,Pastries,True
+567,Olivia,Meyer,67.0,,69003,olivia_meyer@yahoo.com,33553897916,Basic,12/27/2023,2023-05-27,156.11,12.01,13,Tarte,True
+568,Sophie,Bernard,34.0,M,69006,Sophieb@mail.com,33946966826,Basic,2022-04-26,7/25/2023,1300405.7,24.15,30,Macaron,False
+569,Léa,Anderson,40.0,,69002,Léa.anderson@free.fr,33730391556,Gold,2023-11-15,2020-07-01 00:00:00,901395.15,13.95,36,,True
+570,Chloé,Hall,67.0,M,69003,Chloé_hall@free.fr,33796950695,Silver,2017-10-19 00:00:00,2/9/2023,934.04,46.7,20,Bread,True
+571,Harper,White,60.0,F,69006,harper_white@web.de,33765041028,Gold,2023-07-13 00:00:00,7/5/1985,778.84,17.31,45,Bread,False
+572,Ethan,Johnson,61.0,M,69001,Ethanjohnson@yandex.com,2!L'755[es7P,Silver,8/28/2022,2/26/2023,752.3,30.09,25,Tarte,True
+573,Ava,Martin,49.0,F,69001,Avamartin@mail.com,33514343763,basic,1/8/2022,12/7/1960,581.36,30.6,19,Macaron,False
+574,Amélie,Müller,58.0,,69002,améliemüller@protonmail.com,33728930419,Basic,6/20/2022,,522.63,2558.84,29,Tarte,No
+575,Mia,Schneider,36.0,F,69002,mia_schneider@gmail.com,33174951491,basic,2013-07-02 00:00:00,,790.14,87.79,9,Macaron,False
+576,Finn,Robert,28.0,M,69002,FINN_ROBERT@YAHOO.COM,33556058181,Silver,9/5/2041,25/9/1984,968.81,33.41,29,Macaron,True
+577,Chloe,Scott,35.0,M,69007,CHLOE.SCOTT@WEB.DE,33408673535,Basic,2023-09-18,2027-01-14 00:00:00,907.31,20.16,45,Tarte,False
+578,Hannah,Becker,50.0,F,69002,HANNAH.BECKER@GMAIL.COM,33713756938,Gold,2021-03-24 00:00:00,2/2/2084,448.8,49.87,9,Macaron,True
+579,Harry,Martinez,30.0,M,69001,HARRY_MARTINEZ@GMX.DE,33452994929,basic,20/9/2041,6/12/2023,78.06,15.61,5,Macaron,No
+580,Henry,Thompson,66.0,M,69003,henry_thompson@mail.com,+672 (433)-530-5850,SILVER,9/21/2021,9/8/2023,955.41,36.75,26,Pastries,False
+581,James,Fischer,32.0,M,69007,james.fischer@wanadoo.fr,33920638974,Basic,,2023-10-22,229.27,8.19,28,Pastries,False
+582,Charlotte,Lewis,,,69007,CHARLOTTE_LEWIS@GMAIL.COM,,Basic,10/12/2023,27/10/1974,527.05,47.91,11,Tarte,True
+583,Paul,Walker,68.0,F,69007,PAUL.WALKER@FREE.FR,,Gold,6/28/2021,2023-12-28,606.26,18.37,33,Macaron,False
+584,Benjamin,Laurent,31.0,F,69007,benjaminlaurent@laposte.net,33490923455,Basic,10/15/2021,2023-06-13,990.72,247.68,4,Bread,False
+585,Amelia,Jackson,57.0,F,69003,Amelia_jackson@outlook.com,33516809301,Silver,17/10/1948,2023-02-24,863.05,18.36,47,Tarte,True
+586,Sophie,Young,64.0,F,69001,SOPHIE.YOUNG@ORANGE.FR,33939896686,Silver,26/3/2058,2032-03-13 00:00:00,101.63,5.35,19,Pastries,True
+587,Lukas,Clark,69.0,,69001,LUKASCLARK@WEB.DE,33580253132,Basic,2016-04-27 00:00:00,27/7/1978,707.4,2183.96,46,Bread,True
+588,Alexander,Petit,64.0,F,69002,ALEXANDER_PETIT@FREE.FR,,BASIC,2015-09-23 00:00:00,,800.95,160.19,5,Bread,True
+589,Thomas,Wilson,56.0,M,69002,THOMASW@WEB.DE,33972699785,Basic,19/11/2071,,455.09,13.38,34,Macaron,False
+590,Lucas,Durand,34.0,M,69002,Ldurand@wanadoo.fr,+5708476701019,Basic,16/5/2027,2020-09-26 00:00:00,771.78,2609.96,42,Pastries,False
+591,Marie,Baker,45.0,M,69007,marie_baker@protonmail.com,33283627458,Basic,21/3/1936,11/7/2023,819.4,273.13,3,Bread,False
+592,Oliver,Schulz,40.0,M,69007,Olivers@protonmail.com,nCI2=8DnI^Pi,Basic,2018-05-14 00:00:00,7/19/2023,616.08,36.24,17,Pastries,False
+593,Louis,Moore,,F,69003,Louis.moore@laposte.net,+7695771778470,Silver,2022-09-04,23/1/1943,900.9,150.15,6,Macaron,1
+594,Hugo,Wright,54.0,,69002,HWRIGHT@MAIL.COM,+582 (436)-908-5893,Silver,2019-11-24 00:00:00,,610.38,46.95,13,,True
+595,Liam,Thomas,35.0,F,69003,Liamthomas@yahoo.com,33257761631,Gold,12/25/2021,2032-08-10 00:00:00,569.32,37.95,15,Pastries,False
+596,William,Simon,,,69006,WILLIAM_SIMON@OUTLOOK.COM,33368685279,Silver,,2023-02-25,348.52,24.89,14,Tarte,Y
+597,Mason,Taylor,39.0,F,69006,MASONT@LAPOSTE.NET,+2061765838608,Basic,12/18/2022,26/10/2035,60.73,4.34,14,Macaron,False
+598,Jack,Wagner,70.0,F,69003,jack_wagner@wanadoo.fr,33281763152,Gold,2021-11-12,,702.48,41.32,17,Tarte,0
+599,Noah,Green,32.0,,69002,NOAH_GREEN@MAIL.COM,33902192358,Silver,19/1/2041,4/18/2023,498.75,83.12,6,,True
+600,Emily,King,39.0,F,69003,emilyk@outlook.com,33554554692,Basic,,10/3/1965,340.27,22.68,15,,True
+601,Isabella,Smith,65.0,M,69001,ismith@orange.fr,33345257085,Silver,21/5/2046,2023-11-22,878.96,54.94,16,Macaron,False
+602,Emma,Robinson,,F,69001,Emmar@web.de,,Gold,2030-12-10 00:00:00,2023-05-12,402.88,8.06,50,Tarte,True
+603,Leon,Rodriguez,70.0,F,69006,LEON.RODRIGUEZ@WANADOO.FR,33732695647,Silver,,5/20/2023,824.3,74.94,11,Macaron,N
+604,Sophia,Allen,40.0,M,69003,Sophiaallen@yahoo.com,33405935074,Basic,2021-03-25,,209.62,4.37,48,Bread,True
+605,Olivia,Schmidt,67.0,F,69002,olivias@web.de,33334112691,Gold,,24/1/2046,838.31,44.12,19,Macaron,False
+606,Sophie,Leroy,39.0,M,69006,sophiel@hotmail.com,33715808950,Basic,2021-07-01,4/11/1905,348.65,7.92,44,Pastries,False
+607,Léa,Weber,40.0,,69003,Léaweber@yandex.com,+1553950168856,Gold,2021-03-24,2023-03-11,932.75,21.69,43,Bread,0
+608,Chloé,Dubois,63.0,F,69003,CHLOÉDUBOIS@FREE.FR,33268832922,Basic,2022-05-04,19/9/1984,792.18,23.3,34,Pastries,True
+609,Harper,Miller,28.0,F,69003,harperm@outlook.com,33979351068,SILVER,30/4/1975,5/2/1955,452.1,9.42,48,Bread,True
+610,Ethan,Hoffmann,63.0,,69002,Ehoffmann@laposte.net,33512653562,Silver,2022-03-28,3/10/2082,732.8,732.8,1,Macaron,False
+611,Ava,Harris,69.0,F,69002,ava_harris@web.de,33604261701,Silver,2021-03-08 00:00:00,,950.81,20.67,46,Tarte,False
+612,Amélie,Moreau,32.0,M,69007,amoreau@web.de,33387634443,Silver,10/2/1952,11/2/1985,296.55,2476.48,17,,True
+613,Mia,Adams,18.0,F,69001,Madams@icloud.com,33534759827,Basic,3/6/2095,2014-01-19 00:00:00,588.25,15.08,39,,False
+614,Finn,Richard,33.0,F,69006,Frichard@free.fr,,Gold,9/15/2022,8/12/2023,841.37,16.83,50,Tarte,False
+615,Chloe,Garcia,31.0,M,69001,chloegarcia@protonmail.com,33375707921,Basic,2017-02-25 00:00:00,15/3/1915,414.32,1177.1799999999998,50,Bread,False
+616,Hannah,Meyer,50.0,M,69007,Hannahmeyer@protonmail.com,33120848987,Silver,2023-09-28,10/11/2023,565.18,113.04,5,Bread,Y
+617,Harry,Bernard,40.0,F,69001,Harrybernard@free.fr,33784157854,Basic,2021-07-18,25/6/2059,692.26,2137.1,46,,False
+618,Henry,Anderson,58.0,F,69001,henrya@laposte.net,33298219418,Basic,2/6/2015,25/10/2020,515.13,515.13,1,Bread,False
+619,James,Hall,,F,69007,JAMESHALL@YANDEX.COM,33687493667,SILVER,2018-03-08 00:00:00,,736.95,56.69,13,Tarte,False
+620,Charlotte,White,70.0,M,69001,charlotte_white@free.fr,33287187640,Silver,2013-09-30 00:00:00,1/13/2023,93.72,7.21,13,Macaron,True
+621,Paul,Johnson,67.0,F,69003,Paul.johnson@orange.fr,33635046205,Silver,2022-04-06,2023-06-13,55.11,4.24,13,,False
+622,Benjamin,Martin,57.0,F,69001,BENJAMINMARTIN@ICLOUD.COM,33416359333,Silver,,2023-06-20,786.82,16.06,49,Bread,False
+623,Amelia,Schneider,29.0,M,69002,ASCHNEIDER@YANDEX.COM,33360552945,Basic,10/7/2021,,261.72,7.7,34,Macaron,False
+624,Sophie,Robert,32.0,M,69006,sophie.robert@web.de,+2957511717549,Basic,10/21/2022,2013-07-09 00:00:00,913.92,24.05,38,,True
+625,Lukas,Scott,65.0,M,69002,LUKAS_SCOTT@WANADOO.FR,+4542565319273,Silver,11/25/2022,2023-06-02,984.68,36.47,27,Bread,False
+626,Alexander,Becker,32.0,M,69003,alexanderbecker@gmx.de,>DL}S>b$P>=X,SILVER,2020-06-26 00:00:00,10/13/2023,501.97,29.53,17,Macaron,False
+627,Thomas,Martinez,69.0,M,69003,Thomasmartinez@wanadoo.fr,33417171217,GOLD,2023-10-24,2025-05-16 00:00:00,356.94,10.2,35,Macaron,True
+628,Lucas,Thompson,67.0,,69002,lucas_thompson@outlook.com,33956062404,Basic,11/2/2021,24/4/1940,581.91,22.38,26,Pastries,True
+629,Marie,Fischer,31.0,F,69002,MFISCHER@YANDEX.COM,33172141524,GOLD,2023-04-04,1/22/2023,163.4,163.4,1,Tarte,N
+630,Oliver,Lewis,45.0,M,69003,olewis@mail.com,33225973551,Basic,5/15/2022,5/12/2097,165911.85,13.2,7,Pastries,True
+631,Louis,Walker,42.0,F,69003,LWALKER@FREE.FR,,Gold,2025-02-03 00:00:00,2023-03-05,518.56,2230.82,33,Tarte,0
+632,Hugo,Laurent,,F,69007,hugolaurent@hotmail.com,33813703673,Basic,27/10/1909,12/7/2023,811.77,26.19,31,Pastries,False
+633,Liam,Brown,48.0,F,69001,liamb@orange.fr,33821472932,Basic,2023-04-18,,423.19,105.8,4,Pastries,True
+634,William,Jackson,53.0,M,69006,WILLIAM.JACKSON@YAHOO.COM,33603339176,Silver,2016-06-08 00:00:00,9/6/2023,79.88,2.85,28,Macaron,False
+635,Mason,Young,33.0,F,69001,mason_young@orange.fr,33690549949,Silver,29/3/1979,2019-02-16 00:00:00,67.71,1.61,42,Pastries,1
+636,Jack,Clark,67.0,M,69002,Jackc@yahoo.com,33530356260,Gold,2/1/2022,,906905.8,14.86,34,Macaron,True
+637,Noah,Petit,28.0,M,69002,NOAHP@GMX.DE,33841013622,Basic,26/11/2063,3/2/2023,941.86,29.43,32,Bread,True
+638,Emily,Wilson,43.0,M,69006,Emily.wilson@yahoo.com,,Silver,,2023-03-14,910.8,182.16,5,Pastries,True
+639,Isabella,Durand,54.0,M,69007,isabelladurand@icloud.com,33546485371,Silver,,2023-02-01,1769385.35,5184.42,27,Bread,True
+640,Emma,Baker,29.0,F,69001,EMMABAKER@OUTLOOK.COM,+301 (920)-584-9067,Gold,23/5/2023,2023-12-17,927.9,185.58,5,Macaron,False
+641,Leon,Schulz,64.0,F,69007,Leons@yandex.com,33640370353,Gold,2021-11-07,,527873.6,26.73,11,Macaron,False
+642,Sophia,Moore,35.0,M,69002,SOPHIA_MOORE@ICLOUD.COM,,Silver,11/5/2022,22/3/2042,789.88,87.76,9,Tarte,False
+643,Olivia,Wright,19.0,M,69007,Olivia.wright@gmail.com,33365402395,Gold,10/9/2079,2028-04-28 00:00:00,134.56,12.23,11,Macaron,False
+644,Sophie,Thomas,30.0,M,69001,sophiethomas@mail.com,33845096384,Gold,13/2/2077,11/20/2023,792.77,792.77,1,Pastries,False
+645,Léa,Simon,51.0,M,69002,Léa_simon@free.fr,,BASIC,2023-10-19,11/22/2023,470.09,17.41,27,Bread,False
+646,Chloé,Taylor,22.0,M,69001,CHLOÉT@ORANGE.FR,33478511524,Gold,2023-08-01 00:00:00,2023-06-04 00:00:00,82.28,5.88,14,Pastries,True
+647,Harper,Wagner,34.0,F,69002,HARPERW@GMAIL.COM,33721647376,Silver,2023-01-08,2013-11-16 00:00:00,1491106.5,415.35,2,Bread,False
+648,Ethan,Green,23.0,F,69006,ethan.green@yandex.com,33499350782,Basic,7/11/1902,2023-05-12 00:00:00,904.65,4758.42,27,,False
+649,Ava,King,40.0,M,69007,Aking@web.de,33316996443,Gold,20/8/1962,4/5/1957,722.52,14.45,50,Bread,True
+650,Amélie,Smith,29.0,F,69001,ASMITH@YANDEX.COM,33932293527,Gold,8/12/1978,9/18/2023,652.54,28.37,23,Pastries,False
+651,Mia,Robinson,51.0,M,69007,Miar@protonmail.com,33579698031,Basic,12/3/2021,1/6/2023,344.71,28.73,12,,True
+652,Finn,Rodriguez,38.0,M,69003,finnrodriguez@wanadoo.fr,33388606157,Gold,3/12/2021,2017-08-26 00:00:00,311.67,2950.76,15,Bread,True
+653,Chloe,Allen,41.0,F,69007,CALLEN@FREE.FR,+5812151425185,Silver,12/22/2021,29/6/2068,761.9,761.9,1,Bread,True
+654,Hannah,Schmidt,44.0,M,69007,hannahs@yandex.com,33447949090,SILVER,2013-02-25 00:00:00,11/11/2023,630.36,63.04,10,Tarte,False
+655,Harry,Leroy,62.0,F,69001,Harryleroy@free.fr,33681392515,Gold,31/12/2022,,424.03,13.25,32,Macaron,False
+656,Henry,Weber,,F,69001,hweber@icloud.com,+523 (472)-189-1061,Basic,3/13/2021,16/6/1947,726.99,103.86,7,Macaron,False
+657,James,Dubois,46.0,F,69002,jdubois@wanadoo.fr,33924528859,Silver,2031-09-20 00:00:00,2021-01-05 00:00:00,864.61,23.37,37,Bread,False
+658,Charlotte,Miller,30.0,M,69007,CHARLOTTEM@HOTMAIL.COM,33441696435,Gold,12/7/2021,,549.09,10.98,50,Pastries,True
+659,Paul,Hoffmann,69.0,F,69002,Paulhoffmann@hotmail.com,+990 (557)-663-4219,Silver,2032-01-30 00:00:00,2030-06-02 00:00:00,580.22,14.51,40,Tarte,False
+660,Benjamin,Harris,46.0,F,69001,BENJAMIN_HARRIS@WEB.DE,,Gold,2023-06-07,22/11/2041,1138083.8499999999,126.81,5,Bread,False
+661,Amelia,Adams,58.0,M,69007,Ameliaa@icloud.com,33511087383,Silver,,2027-09-21 00:00:00,926.49,185.3,5,,False
+662,Sophie,Richard,50.0,F,69006,Srichard@gmx.de,33833950642,Silver,,19/5/1907,504.05,21.0,24,Pastries,False
+663,Lukas,Garcia,,F,69003,LUKASG@YANDEX.COM,33586677379,Silver,8/7/1939,,573251.2000000001,14.52,22,,True
+664,Alexander,Meyer,22.0,F,69006,Alexander.meyer@yandex.com,33325586084,Basic,25/3/2094,2023-04-13,124.75,2.97,42,,True
+665,Thomas,Bernard,49.0,F,69001,THOMAS_BERNARD@GMAIL.COM,33677997814,Basic,2021-04-16 00:00:00,2026-02-12 00:00:00,428.73,11.28,38,Tarte,False
+666,Lucas,Anderson,38.0,F,69002,LANDERSON@GMX.DE,33978408497,Basic,18/3/2041,2015-09-05 00:00:00,544.71,27.24,20,,False
+667,Marie,Hall,59.0,,69003,marie_hall@gmx.de,,Gold,2015-09-04 00:00:00,2023-02-27,924.79,84.07,11,Bread,True
+668,Oliver,White,55.0,F,69001,oliverw@wanadoo.fr,33650377311,Basic,2021-01-20,2023-02-12,69.73,13.95,5,Tarte,True
+669,Louis,Johnson,49.0,M,69001,Louis_johnson@protonmail.com,33292542182,Basic,2017-09-21 00:00:00,2023-01-26,556.95,27.85,20,Macaron,True
+670,Hugo,Martin,29.0,M,69002,hugo_martin@orange.fr,33674524327,silver,2014-10-29 00:00:00,2023-01-25,123.34,8.81,14,Macaron,True
+671,Liam,Müller,29.0,F,69006,liamm@laposte.net,33988461205,Gold,2021-01-04,5/6/2023,248.91,7.11,35,Bread,True
+672,William,Schneider,49.0,M,69006,Williams@outlook.com,33901246652,Gold,2014-09-18 00:00:00,,427.06,11.24,38,Pastries,False
+673,Mason,Robert,28.0,F,69001,Masonr@yahoo.com,N*=fb4+UgyL/,Gold,2025-04-23 00:00:00,,713.13,20.97,34,Pastries,False
+674,Jack,Scott,68.0,M,69007,jack.scott@outlook.com,33431869264,Basic,11/6/2022,17/9/2034,587.89,97.98,6,Macaron,True
+675,Noah,Becker,23.0,M,69002,Noah_becker@yandex.com,"FXbs2L""OF~tL",silver,4/8/2022,,575.07,4536.9,18,Macaron,True
+676,Emily,Martinez,,F,69001,Emily_martinez@hotmail.com,,Silver,2030-01-10 00:00:00,2032-11-21 00:00:00,600.91,12.79,47,,True
+677,Isabella,Thompson,38.0,M,69003,isabella_thompson@yandex.com,33158142555,Silver,5/4/2047,,406.91,50.86,8,,1
+678,Emma,Fischer,45.0,F,69006,EMMA.FISCHER@HOTMAIL.COM,,Gold,2023-07-21 00:00:00,3/23/2023,772.57,35.12,22,,True
+679,Leon,Lewis,69.0,M,69001,LEON.LEWIS@WANADOO.FR,33702716136,Gold,2026-04-03 00:00:00,2023-10-27 00:00:00,491.17,11.69,42,Pastries,False
+680,Sophia,Walker,42.0,M,69007,sophia.walker@laposte.net,33151115735,Silver,2022-09-25 00:00:00,15/7/1915,864.47,36.02,24,,True
+681,Olivia,Laurent,39.0,M,69003,OLAURENT@YANDEX.COM,,Basic,,9/11/2023,960.7,120.09,8,Bread,0
+682,Sophie,Brown,69.0,F,69007,SBROWN@OUTLOOK.COM,33399719569,Gold,10/1/1961,15/5/1992,1584249.05,67.89,13,Pastries,False
+683,Léa,Jackson,46.0,M,69003,ljackson@web.de,33479198153,Basic,7/20/2023,22/2/1910,570.96,12.41,46,Bread,False
+684,Chloé,Young,54.0,M,69006,Chloéyoung@gmail.com,33214678146,Basic,12/19/2021,,352.08,8.0,44,Pastries,False
+685,Harper,Clark,,F,69001,harper.clark@gmx.de,+2882906381961,Basic,9/15/2023,29/11/2016,861.32,8735.84,14,Pastries,False
+686,Ethan,Petit,67.0,M,69003,ETHANP@ORANGE.FR,,Gold,9/13/2022,2023-08-02,971.71,48.59,20,Bread,False
+687,Ava,Wilson,32.0,M,69007,avaw@wanadoo.fr,33323771041,Gold,2022-01-12,17/5/2083,938641.3999999999,19.37,27,Pastries,False
+688,Amélie,Durand,59.0,M,69001,AMÉLIEDURAND@YANDEX.COM,33719502107,Basic,2028-08-17 00:00:00,2027-03-14 00:00:00,587.45,20.26,29,Pastries,True
+689,Mia,Baker,50.0,M,69001,mia.baker@gmail.com,33322845746,Gold,2013-03-18 00:00:00,2023-07-17,277.25,7.92,35,Bread,False
+690,Finn,Schulz,56.0,M,69006,finn.schulz@mail.com,+5406002775965,Basic,8/5/2011,2023-12-26,912.22,39.66,23,Tarte,False
+691,Chloe,Moore,64.0,M,69006,CHLOE_MOORE@MAIL.COM,33550019326,Gold,,2023-12-24,808.75,25.27,32,,Yes
+692,Hannah,Wright,58.0,M,69006,hannah_wright@free.fr,33524525615,Basic,2016-04-04 00:00:00,2023-09-07,433.39,61.91,7,Macaron,False
+693,Harry,Thomas,18.0,,69003,hthomas@gmail.com,33949213627,gold,2021-01-14,16/2/2073,180.82,4.31,42,Pastries,False
+694,Henry,Simon,52.0,M,69002,HENRY.SIMON@PROTONMAIL.COM,33391621969,Silver,7/2/2021,31/5/1938,665.45,1928.36,49,Tarte,False
+695,James,Taylor,,M,69002,jamest@protonmail.com,33838470371,Basic,24/10/1902,26/9/1900,1585559.4000000001,20.08,44,,False
+696,Charlotte,Wagner,,M,69007,charlottewagner@hotmail.com,33919139703,basic,10/4/2023,2023-08-20,260.54,6.06,43,Macaron,No
+697,Paul,Green,43.0,M,69001,Paul_green@protonmail.com,33685461241,Gold,2029-04-23 00:00:00,2/5/2053,629.29,69.92,9,,False
+698,Benjamin,King,,M,69007,Benjamink@mail.com,33555805818,basic,,2026-07-27 00:00:00,644.73,322.37,2,Pastries,False
+699,Amelia,Robinson,52.0,,69003,AMELIA.ROBINSON@LAPOSTE.NET,+286 (238)-133-4149,Basic,12/9/1964,2023-02-25,519.19,18.54,28,Bread,True
+700,Sophie,Rodriguez,52.0,F,69002,SOPHIE_RODRIGUEZ@YAHOO.COM,33776397443,Basic,2026-12-23 00:00:00,2023-09-17,233.28,6.48,36,Pastries,False
+701,Lukas,Allen,18.0,F,69003,lukas_allen@gmail.com,33353819892,Gold,,11/4/2024,870.2,72.52,12,Tarte,True
+702,Alexander,Schmidt,,F,69006,ALEXANDER_SCHMIDT@ICLOUD.COM,33779921043,Gold,13/8/2021,1/26/2023,715.67,715.67,1,Bread,True
+703,Thomas,Leroy,,M,69002,Thomasl@gmail.com,33138606147,SILVER,,2016-11-16 00:00:00,351.43,8.79,40,,True
+704,Lucas,Weber,58.0,M,69002,LUCASW@ICLOUD.COM,33426404450,gold,2022-04-08 00:00:00,2/11/2023,591.31,2895.38,29,Macaron,True
+705,Marie,Dubois,36.0,F,69007,mdubois@orange.fr,33158361992,Gold,2023-03-22,7/3/2023,413.83,19587.48,3,Macaron,False
+706,Oliver,Miller,57.0,F,69003,oliverm@hotmail.com,xnih])~%w-9y,Silver,1/7/2075,15/6/1959,847.27,282.42,3,,True
+707,Louis,Hoffmann,37.0,M,69006,Louis_hoffmann@yandex.com,33993478441,Silver,2021-10-13,2032-10-14 00:00:00,1033722.5499999999,21.33,27,Pastries,True
+708,Hugo,Harris,32.0,F,69002,Hugo_harris@gmail.com,33570318383,Silver,6/15/2022,,464.18,21.1,22,Bread,False
+709,Liam,Moreau,26.0,F,69007,Liammoreau@gmx.de,+17 (596)-366-7735,basic,2022-05-03,9/8/1915,733.97,26.21,28,Bread,False
+710,William,Adams,22.0,M,69006,Williamadams@wanadoo.fr,+174 (472)-578-5456,Basic,,24/8/2009,888.39,42.3,21,,True
+711,Mason,Richard,51.0,M,69002,Mason_richard@web.de,,Gold,3/15/2022,2023-09-04,309.58,9.99,31,,False
+712,Jack,Garcia,69.0,M,69001,jack_garcia@mail.com,+817 (805)-865-3895,GOLD,2022-05-05,30/5/1995,121.35,2.43,50,,False
+713,Noah,Meyer,37.0,F,69002,nmeyer@free.fr,33885642178,Gold,6/11/2021,6/20/2023,521.03,11.84,44,Pastries,False
+714,Emily,Bernard,64.0,,69002,EMILYB@ORANGE.FR,,Gold,29/3/2046,3/23/2023,789.2,16.79,47,Tarte,True
+715,Isabella,Anderson,54.0,M,69002,isabella_anderson@gmail.com,33927586617,SILVER,26/10/2032,18/8/2091,636.12,42.41,15,Pastries,True
+716,Emma,Hall,,,69001,Emma_hall@mail.com,33549270800,gold,2023-05-25 00:00:00,22/3/2049,527.48,32.97,16,Macaron,True
+717,Leon,White,54.0,F,69003,LEONW@FREE.FR,33223159760,Gold,2022-05-10,7/27/2023,1077484.65,22.23,27,Macaron,False
+718,Sophia,Johnson,62.0,F,69002,sophia_johnson@hotmail.com,33719937265,Basic,2023-03-04,18/4/1996,322.42,7.68,42,Tarte,True
+719,Olivia,Martin,30.0,M,69002,oliviam@gmx.de,+957 (261)-800-1752,Gold,30/11/2035,,218.42,36.4,6,Bread,False
+720,Sophie,Müller,24.0,F,69007,SMÜLLER@PROTONMAIL.COM,33262968967,Basic,,4/8/2092,930.29,93.03,10,Pastries,False
+721,Léa,Schneider,34.0,M,69006,Léa.schneider@hotmail.com,33616450898,Basic,16/4/1919,2023-05-03,411.74,34.31,12,Pastries,True
+722,Chloé,Robert,39.0,F,69001,crobert@wanadoo.fr,33651023832,Basic,2013-08-27 00:00:00,,209243.15,752.6,22,Macaron,False
+723,Harper,Scott,46.0,M,69002,Harper.scott@web.de,33163413054,BASIC,2019-07-19 00:00:00,2030-08-09 00:00:00,518.8,17.89,29,Tarte,False
+724,Ethan,Becker,23.0,M,69006,ethan.becker@mail.com,33818990669,gold,2015-06-19 00:00:00,2023-11-14,770.82,20.83,37,Tarte,False
+725,Ava,Martinez,,M,69002,AVA_MARTINEZ@YAHOO.COM,33571410176,silver,17/9/1910,,427.26,10.17,42,Tarte,True
+726,Amélie,Thompson,22.0,M,69003,améliethompson@mail.com,33330434783,Gold,,6/12/2023,516.32,12.01,43,,False
+727,Mia,Fischer,57.0,F,69002,MIAFISCHER@WEB.DE,33219014159,Silver,12/20/2021,2023-04-10,280.78,18.72,15,Bread,Y
+728,Finn,Lewis,65.0,M,69001,FINNL@YANDEX.COM,33565712891,BASIC,2021-04-10,2016-02-10 00:00:00,821.42,24.16,34,Pastries,True
+729,Chloe,Walker,55.0,F,69007,cwalker@icloud.com,"$-V$okW-Me,h",Silver,2023-11-26,8/4/2079,864633.55,53.52,9,Pastries,False
+730,Hannah,Laurent,24.0,F,69003,Hlaurent@gmail.com,f.u$t^|vs1l4,Silver,27/8/2027,2020-01-25 00:00:00,964.61,34.45,28,Pastries,True
+731,Harry,Brown,69.0,M,69001,harrybrown@hotmail.com,)qIU\WZ+g:K^,Silver,2015-08-12 00:00:00,2028-01-30 00:00:00,636.39,27.67,23,Pastries,True
+732,Henry,Jackson,47.0,F,69007,henryjackson@mail.com,33766480166,Basic,3/10/1990,2023-04-17 00:00:00,621.27,24.85,25,Pastries,True
+733,James,Young,32.0,F,69002,JYOUNG@OUTLOOK.COM,33705296107,SILVER,2023-04-05,6/26/2023,228.47,12.69,18,,False
+734,Charlotte,Clark,30.0,F,69006,charlottec@laposte.net,33663876741,Gold,,2023-12-11,820.91,51.31,16,Bread,False
+735,Paul,Petit,23.0,F,69007,PAULPETIT@ICLOUD.COM,33142164594,Gold,2021-06-10,16/6/1977,708.18,17.27,41,Tarte,False
+736,Benjamin,Wilson,42.0,M,69003,benjaminw@icloud.com,,Gold,2/20/2022,7/11/2023,494.97,123.74,4,Macaron,False
+737,Amelia,Baker,35.0,M,69003,AMELIABAKER@WANADOO.FR,33402634481,Gold,17/2/1982,2017-12-19 00:00:00,845.86,18.0,47,Pastries,False
+738,Sophie,Schulz,59.0,,69002,sophie.schulz@gmx.de,33673327105,Silver,2021-11-16,17/10/2064,1149051.3,42.68,15,Macaron,True
+739,Lukas,Moore,25.0,,69006,lukas.moore@yahoo.com,33959168414,Basic,6/6/2056,2032-08-07 00:00:00,520.36,47.31,11,Macaron,False
+740,Alexander,Wright,45.0,F,69003,awright@protonmail.com,+35 (591)-109-3425,SILVER,17/12/2009,2022-12-15 00:00:00,822.16,24.91,33,Bread,False
+741,Thomas,Thomas,44.0,,69003,Thomas_thomas@yandex.com,,Gold,8/8/2022,2023-03-21,647.73,14.72,44,Tarte,True
+742,Lucas,Simon,18.0,M,69001,LUCAS_SIMON@PROTONMAIL.COM,33689141628,Gold,,1/12/1941,182.71,4.68,39,Pastries,True
+743,Marie,Taylor,,M,69003,MTAYLOR@HOTMAIL.COM,33666389416,Basic,2022-07-21,2023-02-20,897.55,17.95,50,Macaron,True
+744,Oliver,Wagner,38.0,M,69002,Owagner@orange.fr,33516906634,Basic,2018-06-25 00:00:00,,898.68,17.97,50,Bread,False
+745,Louis,Green,68.0,M,69002,LOUIS_GREEN@OUTLOOK.COM,33941018362,Gold,24/11/1942,2016-03-01 00:00:00,453.71,15.12,30,Macaron,True
+746,Hugo,King,26.0,M,69003,HKING@OUTLOOK.COM,,Gold,2028-10-18 00:00:00,24/10/1903,99.91,322.34,44,,False
+747,Liam,Smith,37.0,M,69007,lsmith@wanadoo.fr,nRI2d+WDe-`Y,Gold,2021-12-14,8/18/2023,711.65,3062.94,33,Bread,False
+748,William,Robinson,52.0,M,69002,Wrobinson@yandex.com,+180 (677)-148-1539,Gold,16/3/1997,10/26/2023,659016.2999999999,11.13,33,,False
+749,Mason,Rodriguez,51.0,F,69006,Masonrodriguez@gmail.com,33998627313,Basic,2030-12-19 00:00:00,19/3/2054,590483.2,32.9,10,Bread,False
+750,Jack,Allen,40.0,M,69003,Jacka@hotmail.com,33465316219,Basic,,2030-12-26 00:00:00,100.28,7.71,13,Pastries,False
+751,Noah,Schmidt,21.0,M,69003,Nschmidt@mail.com,33340862100,Silver,2022-12-11,2015-11-23 00:00:00,240.24,12.64,19,Pastries,False
+752,Emily,Leroy,69.0,M,69003,emily.leroy@yahoo.com,-}eICsZjX.H4,Gold,2022-04-21,4/7/2023,716.42,23.88,30,Macaron,True
+753,Isabella,Weber,44.0,M,69002,isabella.weber@orange.fr,33772649331,Silver,2021-04-11,2023-06-12,399.16,9.98,40,,False
+754,Emma,Dubois,20.0,M,69003,Emmadubois@wanadoo.fr,33873543544,Basic,6/8/2022,2028-10-17 00:00:00,225.75,56.44,4,Bread,True
+755,Leon,Miller,66.0,F,69007,LEONMILLER@PROTONMAIL.COM,+4453662797491,Basic,,2023-08-07,212.83,1888.6000000000001,16,Bread,False
+756,Sophia,Hoffmann,37.0,F,69002,shoffmann@mail.com,~QNHeiu2ytU0,gold,2022-11-09,6/20/2023,573.22,11628.38,7,Macaron,False
+757,Olivia,Harris,18.0,M,69007,Oharris@hotmail.com,33554398186,Silver,5/8/1944,2030-11-30 00:00:00,173.59,6.2,28,Tarte,False
+758,Sophie,Moreau,20.0,M,69007,SMOREAU@WEB.DE,,SILVER,,2015-09-17 00:00:00,669.87,33.49,20,Macaron,False
+759,Léa,Adams,53.0,F,69006,Ladams@wanadoo.fr,33946615862,Gold,3/10/2021,2023-01-04,852.91,19.38,44,Bread,True
+760,Chloé,Richard,64.0,F,69002,CHLOÉ_RICHARD@WEB.DE,33659130106,Basic,2021-07-05,,756.0,20.43,37,,False
+761,Harper,Garcia,24.0,F,69001,harper.garcia@mail.com,33937327207,Basic,2019-11-08 00:00:00,5/8/2023,463.66,13.64,34,Tarte,True
+762,Ethan,Meyer,20.0,M,69006,EMEYER@OUTLOOK.COM,33604225074,Basic,2021-05-12,10/6/2023,817.91,68.16,12,Pastries,False
+763,Ava,Bernard,32.0,F,69002,abernard@outlook.com,+6174596316096,Silver,2021-03-25,,149.88,4.83,31,Tarte,True
+764,Amélie,Anderson,58.0,M,69003,amélieanderson@web.de,33191517125,Silver,27/9/1992,30/4/1920,148.64,11.43,13,Bread,True
+765,Mia,Hall,24.0,F,69007,MIA.HALL@YANDEX.COM,33745027915,Silver,2017-01-28 00:00:00,11/7/2023,835.23,46.4,18,Bread,False
+766,Finn,White,43.0,M,69002,FINN_WHITE@OUTLOOK.COM,+803 (222)-723-8578,Basic,2012-12-28 00:00:00,2023-01-04,373.08,10.66,35,,True
+767,Chloe,Johnson,30.0,M,69007,Chloejohnson@icloud.com,33480385726,gold,9/23/2021,2017-08-08 00:00:00,441.11,63.02,7,Macaron,False
+768,Hannah,Martin,62.0,F,69006,Hannahmartin@icloud.com,33373028613,Gold,14/8/1903,2023-12-04,319.27,9.12,35,Bread,False
+769,Harry,Müller,29.0,M,69003,HMÜLLER@PROTONMAIL.COM,33572584114,Silver,,6/25/2023,367.55,30.63,12,Macaron,False
+770,Henry,Schneider,26.0,M,69003,Henry_schneider@hotmail.com,33872628406,Basic,8/18/2021,7/2/1975,660.95,34.79,19,Macaron,True
+771,James,Robert,25.0,F,69003,JAMES.ROBERT@YAHOO.COM,+636961924086,GOLD,2020-09-18 00:00:00,,1150397.55,160.22,4,,False
+772,Charlotte,Scott,22.0,F,69003,cscott@yahoo.com,33866657426,Basic,8/22/2022,,562.01,20.07,28,Pastries,False
+773,Paul,Becker,25.0,F,69001,paulb@yandex.com,33883049480,Basic,2020-05-21 00:00:00,2030-09-15 00:00:00,150.15,16.68,9,Tarte,False
+774,Benjamin,Martinez,46.0,M,69006,BENJAMINMARTINEZ@GMX.DE,33779841493,Gold,,2023-11-02,126.62,7.45,17,Bread,False
+775,Amelia,Fischer,54.0,F,69001,AMELIA.FISCHER@WEB.DE,33657744122,Gold,2023-06-23 00:00:00,23/8/1940,306.9,871.88,50,Macaron,True
+776,Sophie,Lewis,19.0,M,69002,Sophiel@wanadoo.fr,33242037715,Gold,5/23/2021,26/5/2079,732.93,17.88,41,Bread,True
+777,Lukas,Walker,48.0,F,69003,Lukas_walker@hotmail.com,33750441195,Silver,27/3/2070,2014-11-20 00:00:00,205.4,25.68,8,Tarte,True
+778,Alexander,Laurent,63.0,F,69002,ALEXANDER_LAURENT@FREE.FR,33307652694,Silver,2022-08-24 00:00:00,2030-05-15 00:00:00,886.38,26.07,34,Bread,False
+779,Thomas,Brown,54.0,F,69007,thomasb@laposte.net,33552872165,SILVER,2022-08-22,2028-05-27 00:00:00,642.82,42.85,15,Pastries,False
+780,Lucas,Jackson,19.0,F,69006,Lucasj@gmx.de,@oj8{Qg+ibu^,Basic,,19/1/2057,387.59,22.8,17,Pastries,True
+781,Marie,Young,38.0,F,69002,Marieyoung@free.fr,33389970314,Gold,2023-09-15,2023-12-02,979.77,25.78,38,Macaron,False
+782,Oliver,Clark,68.0,F,69006,oliver.clark@yandex.com,33565450010,Gold,29/11/2062,2014-09-12 00:00:00,106.86,3.34,32,,False
+783,Louis,Petit,55.0,,69007,louis_petit@yahoo.com,fYguK6PL6+<@,Silver,16/3/2017,2026-09-29 00:00:00,349.2,49586.4,1,Macaron,False
+784,Hugo,Wilson,28.0,F,69003,Hwilson@free.fr,"i1=z,nFd>'S/",Basic,2023-12-08,11/6/2023,246.74,5.61,44,Tarte,False
+785,Liam,Durand,48.0,F,69007,liamdurand@outlook.com,+390 (347)-894-7482,Gold,2/20/2022,,704.61,176.15,4,Pastries,False
+786,William,Baker,50.0,F,69007,WILLIAMBAKER@WANADOO.FR,33294552329,basic,2/7/2024,2023-02-26,499.95,17.24,29,Bread,True
+787,Mason,Schulz,63.0,M,69002,Mason.schulz@gmx.de,33755246705,GOLD,2013-05-17 00:00:00,2023-11-01,441.41,16.35,27,,False
+788,Jack,Moore,63.0,,69006,JACKMOORE@LAPOSTE.NET,+3145831732797,Silver,21/6/2075,2025-12-06 00:00:00,949.89,52.77,18,Pastries,False
+789,Noah,Wright,47.0,M,69002,noahwright@gmx.de,33865640314,Gold,,5/12/2023,948.15,39.51,24,Macaron,True
+790,Emily,Thomas,58.0,F,69001,emily_thomas@yahoo.com,33447484047,GOLD,9/10/2022,2023-03-05,866.49,39.39,22,Bread,True
+791,Isabella,Simon,61.0,F,69001,Isabellasimon@mail.com,33681815673,Basic,28/9/2030,20/9/2026,955.35,136.48,7,Tarte,False
+792,Emma,Taylor,39.0,F,69007,etaylor@icloud.com,33901957946,Silver,6/25/2023,5/27/2023,985.41,31.79,31,,True
+793,Leon,Wagner,41.0,F,69007,Leon.wagner@orange.fr,33815263818,Basic,2022-01-02,20/2/2009,462.02,14.9,31,,True
+794,Sophia,Green,51.0,F,69003,SOPHIA_GREEN@GMAIL.COM,33832694916,Silver,18/12/1988,20/10/1957,472.5,10.74,44,Pastries,True
+795,Olivia,King,20.0,M,69006,OLIVIAKING@FREE.FR,33230144728,gold,2030-12-21 00:00:00,2013-11-30 00:00:00,97.14,2.07,47,Macaron,False
+796,Sophie,Smith,22.0,M,69002,sophie.smith@gmx.de,33430817313,Silver,2021-06-15,2/2/2023,725.19,60.43,12,Pastries,True
+797,Léa,Robinson,20.0,F,69002,léar@web.de,33387023621,Basic,24/2/2057,31/8/1920,645.18,20.81,31,,True
+798,Chloé,Rodriguez,58.0,F,69002,crodriguez@yahoo.com,33189685895,Gold,2029-09-10 00:00:00,2030-12-18 00:00:00,983157.4,18.26,30,Pastries,True
+799,Harper,Allen,41.0,M,69003,harperallen@gmail.com,+916 (998)-675-3079,BASIC,2023-01-17,2027-03-23 00:00:00,272.38,27.24,10,Macaron,True
+800,Ethan,Schmidt,61.0,,69007,ETHAN_SCHMIDT@YAHOO.COM,33657268197,Silver,31/9/1910,2032-03-28 00:00:00,328.69,8.65,38,,True
+801,Ava,Leroy,27.0,M,69003,Ava_leroy@free.fr,33509759270,Basic,6/23/2022,2024-06-23 00:00:00,546.23,14.37,38,Tarte,True
+802,Amélie,Weber,67.0,F,69003,Amélie.weber@protonmail.com,33104214356,Basic,25/8/1909,2029-04-26 00:00:00,496.1,18.37,27,Pastries,False
+803,Mia,Dubois,40.0,,69006,Miad@wanadoo.fr,33988083857,Gold,9/3/1977,2017-09-20 00:00:00,380.96,7.77,49,Tarte,True
+804,Finn,Miller,40.0,F,69006,fmiller@wanadoo.fr,33360003770,Basic,2023-06-21,2023-05-15,791.27,87.92,9,Macaron,True
+805,Chloe,Hoffmann,65.0,F,69006,chloeh@orange.fr,33184634845,Silver,1/9/1966,12/2/2002,736.52,17.54,42,Pastries,Y
+806,Hannah,Harris,67.0,M,69002,hannahh@wanadoo.fr,33613477526,Basic,17/3/2020,8/18/2023,934871.9000000001,11.32,46,,False
+807,Harry,Moreau,,M,69007,harry_moreau@free.fr,33605924316,gold,2021-12-10,,686.64,2378.5,41,,False
+808,Henry,Adams,39.0,F,69006,Henry_adams@web.de,33242204360,Gold,9/2/2095,,400.32,44.48,9,Pastries,False
+809,James,Richard,64.0,,69001,JRICHARD@YAHOO.COM,33164474504,Silver,2022-09-26,7/8/1948,513.47,23.34,22,Tarte,Yes
+810,Charlotte,Garcia,37.0,,69003,charlotte_garcia@hotmail.com,33537861484,basic,2021-11-02 00:00:00,2023-11-18,899.0,52.88,17,Macaron,True
+811,Paul,Meyer,58.0,M,69002,Paulm@icloud.com,6^|8wu<kBMUq,Basic,31/1/1926,2029-01-12 00:00:00,200.68,6.47,31,,False
+812,Benjamin,Bernard,47.0,M,69002,Bbernard@orange.fr,33348637349,Silver,2022-04-14,11/10/1929,539.54,26.98,20,Pastries,True
+813,Amelia,Hall,,F,69003,Ameliah@gmail.com,33911870940,Silver,2016-12-08 00:00:00,14/4/1991,392.6,26.17,15,Tarte,True
+814,Sophie,White,25.0,M,69006,sophie_white@gmail.com,33808158106,Gold,2019-05-08 00:00:00,18/2/2085,336.31,8.41,40,,False
+815,Lukas,Johnson,61.0,M,69007,lukasjohnson@outlook.com,5tW:zg&:J=(t,Gold,6/2/2023,,786.69,35.76,22,Macaron,False
+816,Alexander,Martin,,F,69003,alexander_martin@free.fr,33254485802,Gold,10/22/2022,,279.27,27.93,10,,True
+817,Thomas,Müller,66.0,M,69001,thomasm@gmx.de,33773982536,Silver,3/7/2018,6/11/2023,881.41,24.48,36,Macaron,False
+818,Lucas,Schneider,30.0,M,69002,lucas_schneider@wanadoo.fr,33586820685,Gold,19/6/2077,25/6/1996,335.83,7.15,47,Bread,False
+819,Marie,Robert,48.0,M,69002,marierobert@gmail.com,33292134829,Gold,3/12/2022,2025-11-16 00:00:00,123.93,4.27,29,Bread,False
+820,Oliver,Scott,35.0,,69003,OLIVER.SCOTT@ICLOUD.COM,"5x^Mju,""O6}X",Basic,2025-07-23 00:00:00,7/17/2023,134.78,3.74,36,Macaron,False
