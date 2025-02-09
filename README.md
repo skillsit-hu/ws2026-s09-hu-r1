@@ -4,7 +4,7 @@ You used to work as a freelance software developer, but now you've applied for a
 
 In the prototype, all you need to develop is an import script, a dashboard and a searchable list of customers. The dashboard helps the operators to analyse the data. The list contains the customers and allows the operators to easily search information in them.
 
-- Your API must use a [JSON Server stable version (v0)](https://github.com/typicode/json-server/tree/v0) as its data provider.
+- Your API must use a [JSON Server stable version (v0.17.4)](https://github.com/typicode/json-server/tree/v0) as its data provider.
 - Your UI has to use the provided logo.
 - Finally you have to create a short demo video to show your presentation skills.
 
